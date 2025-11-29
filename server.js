@@ -1,8 +1,8 @@
 // server.js
-const express = require('express');
-const http = require('http');
-const { Server } = require('socket.io');
-const cors = require('cors');
+const express = require("express");
+const http = require("http");
+const { Server } = require("socket.io");
+const cors = require("cors");
 const fs = require("fs");
 const path = require("path");
 
@@ -13,72 +13,127 @@ const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
     origin: [
-      'http://localhost:3000',      // React Dev Server
-      'https://devmato.pro',    // deine Deployment-URL
+      "http://localhost:3000", // React Dev Server
+      "https://devmato.pro", // deine Deployment-URL
     ],
-    methods: ['GET', 'POST'],
+    methods: ["GET", "POST"],
   },
 });
-
 
 // ----- KONFIG -----
 
 // Gamemaster-PIN (optional, falls du später doch noch manuell wechseln willst)
-const GAMEMASTER_PIN = '6518';
+const GAMEMASTER_PIN = "6518";
 
 // Maximale Anzahl Teams
 const MAX_TEAMS = 3;
 
 // Beispiel-Teamnamen
 const TEAM_NAMES = [
-  'Stolze Säbelzahntiger',
-  'Ehrfürchtige Einhörner',
-  'Anmutige Aale',
-  'Flinke Füchse',
-  'Clevere Chamäleons',
-  'Blitzschnelle Bären',
-  'Listige Lurche',
-  'Prächtige Pelikane',
+  "Stolze Säbelzahntiger",
+  "Ehrfürchtige Einhörner",
+  "Anmutige Aale",
+  "Flinke Füchse",
+  "Clevere Chamäleons",
+  "Blitzschnelle Bären",
+  "Listige Lurche",
+  "Prächtige Pelikane",
 ];
 
 // Verfügbare Avatare
 const AVATAR_KEYS = [
-  'profile1',
-  'profile2',
-  'profile3',
-  'profile4',
-  'profile5',
-  'profile6',
-  'profile7',
-  'profile8',
-  'profile9',
-  'profile10',
-  'profile11',
-  'profile12',
-  'profile13',
-  'profile14',
-  'profile15',
-  'profile16',
+  "profile1",
+  "profile2",
+  "profile3",
+  "profile4",
+  "profile5",
+  "profile6",
+  "profile7",
+  "profile8",
+  "profile9",
+  "profile10",
+  "profile11",
+  "profile12",
+  "profile13",
+  "profile14",
+  "profile15",
+  "profile16",
 ];
 
 // Verfügbare Boards (JSON-Dateien im ./data Ordner)
 const BOARDS = [
-  { id: "board1", filename: "board_HarryPotter1.json", title: "Harry Potter: Lehren von Hogwarts" },
-  { id: "board2", filename: "board_HarryPotter2.json", title: "Harry Potter: Magische Orte" },
-  { id: "board3", filename: "board_HarryPotter3.json", title: "Harry Potter: Sprechende Bilder" },
-  { id: "board4", filename: "board_HarryPotter4.json", title: "Harry Potter: Experte" },
-  { id: "board5", filename: "board_LOL1.json", title: "League of Legends: Grundlagen" },
-  { id: "board6", filename: "board_LOL2.json", title: "League of Legends: Lore" },
-  { id: "board7", filename: "board_LOL3.json", title: "League of Legends: Items, Buffs & Mechaniken" },
-  { id: "board8", filename: "board_LOL4.json", title: "League of Legends: Champions & Voice Lines" },
-  { id: "board9", filename: "board_LOL5.json", title: "League of Legends: Experte" },
+  {
+    id: "board1",
+    filename: "board_HarryPotter1.json",
+    title: "Harry Potter: Lehren von Hogwarts",
+  },
+  {
+    id: "board2",
+    filename: "board_HarryPotter2.json",
+    title: "Harry Potter: Magische Orte",
+  },
+  {
+    id: "board3",
+    filename: "board_HarryPotter3.json",
+    title: "Harry Potter: Sprechende Bilder",
+  },
+  {
+    id: "board4",
+    filename: "board_HarryPotter4.json",
+    title: "Harry Potter: Experte",
+  },
+  {
+    id: "board5",
+    filename: "board_LOL1.json",
+    title: "League of Legends: Grundlagen",
+  },
+  {
+    id: "board6",
+    filename: "board_LOL2.json",
+    title: "League of Legends: Lore",
+  },
+  {
+    id: "board7",
+    filename: "board_LOL3.json",
+    title: "League of Legends: Items, Buffs & Mechaniken",
+  },
+  {
+    id: "board8",
+    filename: "board_LOL4.json",
+    title: "League of Legends: Champions & Voice Lines",
+  },
+  {
+    id: "board9",
+    filename: "board_LOL5.json",
+    title: "League of Legends: Experte",
+  },
   { id: "board10", filename: "board_Filme1.json", title: "Filme: Allgemein" },
   { id: "board11", filename: "board_Filme2.json", title: "Serien: Allgemein" },
-  { id: "board12", filename: "board_Allgemein1.json", title: "Allgemeinwissen: Basics" },
-  { id: "board13", filename: "board_Allgemein2.json", title: "Allgemeinwissen: Welt & Natur" },
-  { id: "board14", filename: "board_Allgemein3.json", title: "Allgemeinwissen: Wissenschaft & Technik" },
-  { id: "board15", filename: "board_Allgemein4.json", title: "Allgemeinwissen: Geschichte & Kultur" },
-  { id: "board16", filename: "board_Allgemein5.json", title: "Allgemeinwissen: Mixed" },
+  {
+    id: "board12",
+    filename: "board_Allgemein1.json",
+    title: "Allgemeinwissen: Basics",
+  },
+  {
+    id: "board13",
+    filename: "board_Allgemein2.json",
+    title: "Allgemeinwissen: Welt & Natur",
+  },
+  {
+    id: "board14",
+    filename: "board_Allgemein3.json",
+    title: "Allgemeinwissen: Wissenschaft & Technik",
+  },
+  {
+    id: "board15",
+    filename: "board_Allgemein4.json",
+    title: "Allgemeinwissen: Geschichte & Kultur",
+  },
+  {
+    id: "board16",
+    filename: "board_Allgemein5.json",
+    title: "Allgemeinwissen: Mixed",
+  },
 ];
 
 // ----- MULTI-LOBBY-STATE -----
@@ -91,10 +146,10 @@ const SOCKET_LOBBY = {};
 
 // Lobby-Code generieren (z.B. 6 Zeichen, eindeutig)
 function generateLobbyCode() {
-  const chars = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
-  let code = '';
+  const chars = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789";
+  let code = "";
   do {
-    code = '';
+    code = "";
     for (let i = 0; i < 6; i++) {
       code += chars[Math.floor(Math.random() * chars.length)];
     }
@@ -105,11 +160,11 @@ function generateLobbyCode() {
 function createEmptyLobby(code) {
   return {
     code,
-    players: {},      // { [socketId]: { id, name, teamId, isGamemaster } }
-    teams: {},        // { [teamId]: { id, name, playerIds: [], avatarKey } }
+    players: {}, // { [socketId]: { id, name, teamId, isGamemaster } }
+    teams: {}, // { [teamId]: { id, name, playerIds: [], avatarKey } }
     gamemasterId: null,
-    phase: 'lobby',   // 'lobby' | 'game'
-    game: null,       // GameState oder null
+    phase: "lobby", // 'lobby' | 'game'
+    game: null, // GameState oder null
 
     boards: BOARDS,
     selectedBoardId: BOARDS[0].id, // Standard-Board
@@ -124,7 +179,7 @@ function getLobbyForSocket(socket) {
 
 function broadcastLobbyState(lobby) {
   if (!lobby) return;
-  io.to(lobby.code).emit('lobby_state', lobby);
+  io.to(lobby.code).emit("lobby_state", lobby);
 }
 
 // Socket aus aktueller Lobby entfernen (z.B. bei Disconnect oder Lobby-Wechsel)
@@ -176,7 +231,7 @@ function leaveCurrentLobby(socket) {
   // Wenn keine Spieler mehr: Lobby löschen
   if (Object.keys(lobby.players).length === 0) {
     delete LOBBIES[code];
-    console.log('Lobby gelöscht:', code);
+    console.log("Lobby gelöscht:", code);
   } else {
     broadcastLobbyState(lobby);
   }
@@ -227,15 +282,15 @@ function buildBoardFromJson(data) {
 
 // ----- SOCKET-LOGIK -----
 
-io.on('connection', (socket) => {
-  console.log('Client connected:', socket.id);
+io.on("connection", (socket) => {
+  console.log("Client connected:", socket.id);
 
   // ----- LOBBY ERSTELLEN -----
   // Spieler erstellt eine neue Lobby und wird direkt Gamemaster
-  socket.on('create_lobby', ({ name }) => {
-    const trimmedName = (name || '').trim();
+  socket.on("create_lobby", ({ name }) => {
+    const trimmedName = (name || "").trim();
     if (!trimmedName) {
-      socket.emit('join_error', 'Name wird benötigt.');
+      socket.emit("join_error", "Name wird benötigt.");
       return;
     }
 
@@ -260,24 +315,24 @@ io.on('connection', (socket) => {
     console.log(`Lobby ${code} erstellt von ${trimmedName} (${socket.id})`);
 
     // optional: separater Event mit dem Code
-    socket.emit('lobby_created', { code });
+    socket.emit("lobby_created", { code });
 
     broadcastLobbyState(lobby);
   });
 
   // ----- LOBBY BEITRETEN -----
-  socket.on('join_lobby', ({ name, code }) => {
-    const trimmedName = (name || '').trim();
-    const trimmedCode = (code || '').trim().toUpperCase();
+  socket.on("join_lobby", ({ name, code }) => {
+    const trimmedName = (name || "").trim();
+    const trimmedCode = (code || "").trim().toUpperCase();
 
     if (!trimmedName || !trimmedCode) {
-      socket.emit('join_error', 'Name und Lobby-Code werden benötigt.');
+      socket.emit("join_error", "Name und Lobby-Code werden benötigt.");
       return;
     }
 
     const lobby = LOBBIES[trimmedCode];
     if (!lobby) {
-      socket.emit('join_error', 'Diese Lobby existiert nicht (mehr).');
+      socket.emit("join_error", "Diese Lobby existiert nicht (mehr).");
       return;
     }
 
@@ -294,7 +349,9 @@ io.on('connection', (socket) => {
       isGamemaster: false,
     };
 
-    console.log(`Player joined lobby ${trimmedCode}: ${trimmedName} (${socket.id})`);
+    console.log(
+      `Player joined lobby ${trimmedCode}: ${trimmedName} (${socket.id})`
+    );
     broadcastLobbyState(lobby);
   });
 
@@ -302,18 +359,37 @@ io.on('connection', (socket) => {
 
   // Team erstellen (nur in der Lobbyphase, max. MAX_TEAMS Teams)
   // Spieler, der das Team erstellt, wird automatisch Mitglied
-  socket.on('create_team', () => {
+  socket.on("create_team", ({ slotIndex }) => {
     const lobby = getLobbyForSocket(socket);
     if (!lobby) return;
-    if (lobby.phase !== 'lobby') return;
+    if (lobby.phase !== "lobby") return;
 
     const player = lobby.players[socket.id];
     if (!player) return;
 
+    // slotIndex validieren (0–2)
+    if (
+      typeof slotIndex !== "number" ||
+      slotIndex < 0 ||
+      slotIndex >= MAX_TEAMS
+    ) {
+      socket.emit("team_error", "Ungültiger Team-Slot.");
+      return;
+    }
+
+    // Prüfen, ob in diesem Slot schon ein Team existiert
+    const existingTeamInSlot = Object.values(lobby.teams).find(
+      (t) => t.slotIndex === slotIndex
+    );
+    if (existingTeamInSlot) {
+      socket.emit("team_error", "In diesem Slot existiert bereits ein Team.");
+      return;
+    }
+
     const existingTeams = Object.keys(lobby.teams).length;
     if (existingTeams >= MAX_TEAMS) {
       socket.emit(
-        'team_error',
+        "team_error",
         `Es können maximal ${MAX_TEAMS} Teams erstellt werden.`
       );
       return;
@@ -327,14 +403,12 @@ io.on('connection', (socket) => {
       }
     }
 
-    const teamId = 'team_' + Date.now();
+    const teamId = "team_" + Date.now();
 
-    // zufälligen Namen wählen
     const randomName =
       TEAM_NAMES[Math.floor(Math.random() * TEAM_NAMES.length)] ||
       `Team ${existingTeams + 1}`;
 
-    // zufälligen Avatar wählen
     const randomAvatar =
       AVATAR_KEYS[Math.floor(Math.random() * AVATAR_KEYS.length)];
 
@@ -343,28 +417,31 @@ io.on('connection', (socket) => {
       name: randomName,
       playerIds: [socket.id],
       avatarKey: randomAvatar,
+      slotIndex, // 🔴 HIER wird der Slot gespeichert
     };
 
-    // Spieler in dieses Team setzen
     player.teamId = teamId;
 
     console.log(
-      'Team created:',
+      "Team created:",
       randomName,
       teamId,
-      'Avatar:',
+      "Slot:",
+      slotIndex,
+      "Avatar:",
       randomAvatar,
-      'by',
+      "by",
       player.name
     );
+
     broadcastLobbyState(lobby);
   });
 
   // Spieler einem Team zuordnen (nur in Lobbyphase)
-  socket.on('join_team', ({ teamId }) => {
+  socket.on("join_team", ({ teamId }) => {
     const lobby = getLobbyForSocket(socket);
     if (!lobby) return;
-    if (lobby.phase !== 'lobby') return;
+    if (lobby.phase !== "lobby") return;
 
     const player = lobby.players[socket.id];
     const team = lobby.teams[teamId];
@@ -388,16 +465,16 @@ io.on('connection', (socket) => {
   });
 
   // Gamemaster setzen – weiterhin optional via PIN (falls du es im UI noch hast)
-  socket.on('set_gamemaster', ({ pin }) => {
+  socket.on("set_gamemaster", ({ pin }) => {
     const lobby = getLobbyForSocket(socket);
     if (!lobby) return;
 
     const player = lobby.players[socket.id];
     if (!player) return;
 
-    const trimmedPin = (pin || '').trim();
+    const trimmedPin = (pin || "").trim();
     if (trimmedPin !== GAMEMASTER_PIN) {
-      socket.emit('gm_error', 'Gamemaster-PIN ist falsch.');
+      socket.emit("gm_error", "Gamemaster-PIN ist falsch.");
       return;
     }
 
@@ -407,21 +484,21 @@ io.on('connection', (socket) => {
       p.isGamemaster = p.id === socket.id;
     });
 
-    console.log('Gamemaster set:', player.name);
+    console.log("Gamemaster set:", player.name);
     broadcastLobbyState(lobby);
   });
 
   // Team umbenennen (nur in Lobbyphase; nur Team-Mitglieder)
-  socket.on('rename_team', ({ teamId, name }) => {
+  socket.on("rename_team", ({ teamId, name }) => {
     const lobby = getLobbyForSocket(socket);
     if (!lobby) return;
-    if (lobby.phase !== 'lobby') return;
+    if (lobby.phase !== "lobby") return;
 
     const team = lobby.teams[teamId];
     const player = lobby.players[socket.id];
     if (!team || !player) return;
 
-    const trimmed = (name || '').trim();
+    const trimmed = (name || "").trim();
     if (!trimmed) return;
 
     // Nur Team-Mitglieder dürfen den Namen ihres Teams ändern
@@ -429,15 +506,17 @@ io.on('connection', (socket) => {
 
     team.name = trimmed.slice(0, 30); // max 30 Zeichen
 
-    console.log(`Team umbenannt: ${teamId} -> ${team.name} durch ${player.name}`);
+    console.log(
+      `Team umbenannt: ${teamId} -> ${team.name} durch ${player.name}`
+    );
     broadcastLobbyState(lobby);
   });
 
   // Profilbild / Avatar für ein Team setzen (nur in Lobbyphase, nur Team-Mitglieder)
-  socket.on('set_team_avatar', ({ teamId, avatarKey }) => {
+  socket.on("set_team_avatar", ({ teamId, avatarKey }) => {
     const lobby = getLobbyForSocket(socket);
     if (!lobby) return;
-    if (lobby.phase !== 'lobby') return;
+    if (lobby.phase !== "lobby") return;
 
     const team = lobby.teams[teamId];
     const player = lobby.players[socket.id];
@@ -458,17 +537,17 @@ io.on('connection', (socket) => {
   });
 
   // Gamemaster wählt das Board für die Runde
-  socket.on('set_board', ({ boardId }) => {
+  socket.on("set_board", ({ boardId }) => {
     const lobby = getLobbyForSocket(socket);
     if (!lobby) return;
-    if (lobby.phase !== 'lobby') return;
+    if (lobby.phase !== "lobby") return;
     if (socket.id !== lobby.gamemasterId) return;
 
     const board = BOARDS.find((b) => b.id === boardId);
     if (!board) return;
 
     lobby.selectedBoardId = boardId;
-    console.log('Board ausgewählt:', boardId);
+    console.log("Board ausgewählt:", boardId);
 
     broadcastLobbyState(lobby);
   });
@@ -522,18 +601,18 @@ io.on('connection', (socket) => {
   });
 
   // Feld/Frage auswählen (nur Board-Phase, nur aktuelles Team)
-  socket.on('question_select', ({ questionId }) => {
+  socket.on("question_select", ({ questionId }) => {
     const lobby = getLobbyForSocket(socket);
     if (!lobby) return;
 
     const game = lobby.game;
     if (!game) return;
-    if (lobby.phase !== 'game') return;
-    if (game.phase !== 'board') return;
+    if (lobby.phase !== "game") return;
+    if (game.phase !== "board") return;
 
     const question = game.questions[questionId];
     if (!question) return;
-    if (question.state !== 'closed') return;
+    if (question.state !== "closed") return;
 
     const player = lobby.players[socket.id];
     if (!player) return;
@@ -543,9 +622,9 @@ io.on('connection', (socket) => {
       return;
     }
 
-    question.state = 'open';
+    question.state = "open";
     game.activeQuestionId = questionId;
-    game.phase = 'question';
+    game.phase = "question";
 
     console.log(
       `Question selected: ${questionId} by player ${player.name} (${player.teamId}) in Lobby ${lobby.code}`
@@ -554,17 +633,17 @@ io.on('connection', (socket) => {
   });
 
   // Gamemaster zeigt Antwort
-  socket.on('reveal_answer', () => {
+  socket.on("reveal_answer", () => {
     const lobby = getLobbyForSocket(socket);
     if (!lobby) return;
 
     const game = lobby.game;
     if (!game) return;
     if (socket.id !== lobby.gamemasterId) return;
-    if (game.phase !== 'question') return;
+    if (game.phase !== "question") return;
 
-    game.phase = 'reveal';
-    console.log('Answer revealed in Lobby', lobby.code);
+    game.phase = "reveal";
+    console.log("Answer revealed in Lobby", lobby.code);
     broadcastLobbyState(lobby);
   });
 
@@ -601,7 +680,10 @@ io.on('connection', (socket) => {
     );
 
     if (allDone) {
-      console.log("🎉 Alle Fragen beantwortet! Spiel endet in Lobby", lobby.code);
+      console.log(
+        "🎉 Alle Fragen beantwortet! Spiel endet in Lobby",
+        lobby.code
+      );
       game.phase = "finished";
       broadcastLobbyState(lobby);
       return;
@@ -645,8 +727,8 @@ io.on('connection', (socket) => {
   });
 
   // ----- DISCONNECT -----
-  socket.on('disconnect', () => {
-    console.log('Client disconnected:', socket.id);
+  socket.on("disconnect", () => {
+    console.log("Client disconnected:", socket.id);
     leaveCurrentLobby(socket);
   });
 });

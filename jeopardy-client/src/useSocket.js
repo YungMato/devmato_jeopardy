@@ -2,10 +2,11 @@
 import { useEffect, useState } from "react";
 import { io } from "socket.io-client";
 
-const SOCKET_URL =
-  process.env.NODE_ENV === "production"
-    ? "https://devmato.pro"     // ✅ deine echte Domain
-    : "http://localhost:4000";  // ✅ lokal direkt auf Node
+const isLocalhost = window.location.hostname === "localhost";
+
+const SOCKET_URL = isLocalhost
+  ? "http://localhost:4000"
+  : "https://devmato.pro"; // dein Backend
 
 const socket = io(SOCKET_URL, {
   path: "/socket.io",
@@ -17,16 +18,15 @@ export function useLobby() {
   const [connected, setConnected] = useState(false);
 
   useEffect(() => {
-    function onConnect() {
-      setConnected(true);
-    }
-    function onDisconnect() {
+    const onConnect = () => setConnected(true);
+    const onDisconnect = () => {
       setConnected(false);
       setLobby(null);
-    }
-    function onLobbyState(nextLobby) {
+    };
+    const onLobbyState = (nextLobby) => {
+      // WICHTIG: hier muss der komplette neue Lobby-Stand gesetzt werden
       setLobby(nextLobby);
-    }
+    };
 
     socket.on("connect", onConnect);
     socket.on("disconnect", onDisconnect);
