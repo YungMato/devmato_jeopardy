@@ -2,7 +2,12 @@
 import { useEffect, useState } from "react";
 import { io } from "socket.io-client";
 
-const socket = io(window.location.origin, {
+const SOCKET_URL =
+  process.env.NODE_ENV === "production"
+    ? "https://deine-domain.de"  // <- deine Deployment-Domain
+    : "http://localhost:4000";   // <- dein lokaler Node-Server
+
+const socket = io(SOCKET_URL, {
   path: "/socket.io",
   transports: ["websocket"],
 });
@@ -15,13 +20,12 @@ export function useLobby() {
     function onConnect() {
       setConnected(true);
     }
-
     function onDisconnect() {
       setConnected(false);
+      setLobby(null);
     }
-
-    function onLobbyState(newLobby) {
-      setLobby(newLobby);
+    function onLobbyState(nextLobby) {
+      setLobby(nextLobby);
     }
 
     socket.on("connect", onConnect);

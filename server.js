@@ -12,10 +12,14 @@ app.use(cors());
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: '*',
+    origin: [
+      'http://localhost:3000',      // React Dev Server
+      'https://devmato.pro',    // deine Deployment-URL
+    ],
     methods: ['GET', 'POST'],
   },
 });
+
 
 // ----- KONFIG -----
 
@@ -649,7 +653,7 @@ io.on('connection', (socket) => {
 
 // ----- SERVER STARTEN -----
 
-const PORT = 4000;
+const PORT = process.env.PORT || 4000;
 server.listen(PORT, () => {
-  console.log(`Server läuft auf http://localhost:${PORT}`);
+  console.log(`Server läuft auf Port ${PORT}`);
 });
