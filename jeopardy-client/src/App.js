@@ -174,7 +174,7 @@ const createLobby = () => {
         {/* Header */}
         <header className="app-header">
           <div className="app-title">
-            <h1>Jeopardy-Online</h1>
+            <h1>Jeopardy-Online-JO</h1>
             <span className="app-pill">Multiplayer Quiz</span>
           </div>
           <div className="app-status">
