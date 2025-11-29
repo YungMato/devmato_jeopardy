@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef, useCallback } from 'react';
+import { useState, useEffect, useRef, useCallback } from 'react';
 import { useLobby } from './useSocket';
 import './App.css';
 
@@ -121,6 +121,33 @@ function App() {
   const playCorrectSound = useSound(correctSoundFile, 0.2);
   const playWrongSound = useSound(wrongSoundFile, 0.2);
 
+  const joinLobby = () => {
+  if (!socket) return;
+  setError('');
+
+  if (!name.trim() || !joinCode.trim()) {
+    setError("Bitte Name und Lobby-Code eingeben");
+    return;
+  }
+
+  socket.emit('join_lobby', {
+    name: name.trim(),
+    code: joinCode.trim().toUpperCase(),
+  });
+};
+
+const createLobby = () => {
+  if (!socket) return;
+  setError('');
+
+  if (!name.trim()) {
+    setError("Bitte gib zuerst deinen Namen ein");
+    return;
+  }
+
+  socket.emit('create_lobby', { name: name.trim() });
+};
+
   // Fehler handling
   useEffect(() => {
     if (!socket) return;
@@ -141,8 +168,84 @@ function App() {
   }, [socket]);
 
   if (!lobby) {
-    return <div style={{ color: 'white' }}>Lade Lobby...</div>;
-  }
+  return (
+    <div className="app-root">
+      <div className="app-shell">
+        {/* Header */}
+        <header className="app-header">
+          <div className="app-title">
+            <h1>Jeopardy-Online</h1>
+            <span className="app-pill">Multiplayer Quiz</span>
+          </div>
+          <div className="app-status">
+            <span className="badge-connection">
+              <span
+                className={
+                  "badge-dot " + (connected ? "badge-dot--ok" : "badge-dot--bad")
+                }
+              />
+              {connected ? "Verbunden" : "Nicht verbunden"}
+            </span>
+          </div>
+        </header>
+
+        <div className="lobby-body">
+          <div
+            className="panel panel--primary"
+            style={{ maxWidth: 480, margin: "0 auto" }}
+          >
+            <div className="panel-header">
+              <h2>Jeopardy starten</h2>
+              <span className="panel-subtitle">
+                Erstelle eine neue Lobby oder tritt mit einem Code bei.
+              </span>
+            </div>
+
+            <div className="form-row" style={{ marginBottom: 14 }}>
+              <label>
+                Name<br />
+                <input
+                  className="input"
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
+                />
+              </label>
+            </div>
+
+            <div className="form-row">
+              <label style={{ flex: 1 }}>
+                Lobby-Code (zum Beitreten)<br />
+                <input
+                  className="input"
+                  placeholder="z.B. A7K3QZ"
+                  value={joinCode}
+                  onChange={(e) =>
+                    setJoinCode(e.target.value.toUpperCase())
+                  }
+                />
+              </label>
+            </div>
+
+            <div
+              className="form-row"
+              style={{ justifyContent: "space-between", marginTop: 12 }}
+            >
+              <button className="btn btn--primary" onClick={createLobby}>
+                Lobby erstellen
+              </button>
+              <button className="btn" onClick={joinLobby}>
+                Lobby beitreten
+              </button>
+            </div>
+
+            {error && <p className="error-text">{error}</p>}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 
   const me = socket ? lobby.players?.[socket.id] : null;
   const lobbyPhase = lobby.phase;
@@ -153,15 +256,7 @@ function App() {
   // -----------------------
   // Aktionen
   // -----------------------
-  const joinLobby = () => {
-    if (!socket) return;
-    setError('');
-    if (!name.trim() || !joinCode.trim()) {
-      setError("Bitte Name und Lobby-Code eingeben");
-      return;
-    }
-    socket.emit('join_lobby', { name, code: joinCode.trim() });
-  };
+
 
   const createTeam = () => {
   if (!socket) return;
@@ -577,17 +672,6 @@ const resetLobby = () => {
     {/* Gamemaster / Spiel starten */}
     <div className="form-row" style={{ alignItems: 'center', justifyContent: 'space-between' }}>
   <div style={{ display: 'flex', gap: 8 }}>
-    <button
-      className="btn btn--ghost"
-      onClick={becomeGamemaster}
-      disabled={lobby.gamemasterId && lobby.gamemasterId !== me.id}
-    >
-      {me.isGamemaster
-        ? 'Du bist Gamemaster'
-        : lobby.gamemasterId
-        ? 'Gamemaster ist bereits gesetzt'
-        : 'Ich bin Gamemaster'}
-    </button>
 
     {me.isGamemaster && (
       <button className="btn btn--primary" onClick={startGame}>
