@@ -4,7 +4,7 @@ import { io } from "socket.io-client";
 
 const SOCKET_URL =
   process.env.NODE_ENV === "production"
-    ? "https://deine-domain.de"  // <- deine Deployment-Domain
+    ? "*"  // <- deine Deployment-Domain
     : "http://localhost:4000";   // <- dein lokaler Node-Server
 
 const socket = io(SOCKET_URL, {
