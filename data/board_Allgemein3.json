@@ -1,0 +1,70 @@
+{
+  "categories": [
+    {
+      "id": "cat1",
+      "title": "Physik",
+      "questions": [
+        { "points": 100, "question": "Wie lautet die Einheit für elektrische Spannung?", "answer": "Volt" },
+        { "points": 200, "question": "Welche unsichtbare Kraft zieht uns zur Erde?", "answer": "Gravitation" },
+        { "points": 300, "question": "Wie nennt man Materie mit negativer Ladung?", "answer": "Elektronen" },
+        { "points": 400, "question": "Was ist die Lichtgeschwindigkeit in m/s?", "answer": "299.792.458 m/s" },
+        { "points": 500, "question": "Welche Theorie stellte Albert Einstein 1915 vor?", "answer": "Allgemeine Relativitätstheorie" }
+      ]
+    },
+    {
+      "id": "cat2",
+      "title": "Chemie",
+      "questions": [
+        { "points": 100, "question": "Welches chemische Symbol steht für Sauerstoff?", "answer": "O" },
+        { "points": 200, "question": "Welche Art von Bindung teilt Elektronen zwischen Atomen?", "answer": "Kovalente Bindung" },
+        { "points": 300, "question": "Welches Gas ist Hauptbestandteil der Luft?", "answer": "Stickstoff" },
+        { "points": 400, "question": "Welcher pH-Wert gilt als neutral?", "answer": "7" },
+        { "points": 500, "question": "Welche Art von Reaktion setzt Energie frei, z.B. bei Explosionen?", "answer": "Exotherme Reaktion" }
+      ]
+    },
+    {
+      "id": "cat3",
+      "title": "Biologie",
+      "questions": [
+        { "points": 100, "question": "Wie heißt die Erbinformation aller Lebewesen?", "answer": "DNA" },
+        { "points": 200, "question": "Wie nennt man Zellen ohne Zellkern?", "answer": "Prokaryoten" },
+        { "points": 300, "question": "Wie heißt die Zellorganelle, die Energie produziert?", "answer": "Mitochondrien" },
+        { "points": 400, "question": "Wie nennt man die Lehre von Ökosystemen?", "answer": "Ökologie" },
+        { "points": 500, "question": "Wie heißt der Prozess, bei dem RNA in Proteine übersetzt wird?", "answer": "Translation" }
+      ]
+    },
+    {
+      "id": "cat4",
+      "title": "Technik",
+      "questions": [
+        { "points": 100, "question": "Wofür steht die Abkürzung \"AI\"?", "answer": "Artificial Intelligence / Künstliche Intelligenz" },
+        { "points": 200, "question": "Wie nennt man ein Gerät, das Strom speichert?", "answer": "Akku / Batterie" },
+        { "points": 300, "question": "Welche Programmiersprache wird u.a. für Web-Frontend verwendet?", "answer": "JavaScript" },
+        { "points": 400, "question": "Wie heißt der weltweite Verbund von Computern?", "answer": "Das Internet" },
+        { "points": 500, "question": "Wie nennt man die Miniaturisierung elektrischer Schaltkreise auf Chips?", "answer": "Mikroelektronik" }
+      ]
+    },
+    {
+      "id": "cat5",
+      "title": "Raumfahrt",
+      "questions": [
+        { "points": 100, "question": "Wie heißt der erste Mensch im All?", "answer": "Juri Gagarin" },
+        { "points": 200, "question": "Wie heißt unser Sonnensystem im Zentrum?", "answer": "Die Sonne" },
+        { "points": 300, "question": "Welcher Planet hat den größten Sturm des Sonnensystems?", "answer": "Der Große Rote Fleck auf Jupiter" },
+        { "points": 400, "question": "Wie heißt das größte Teleskop im Orbit (seit 2021)?", "answer": "James-Webb-Teleskop" },
+        { "points": 500, "question": "Wie nennt man die Hypothese über die Entstehung des Universums?", "answer": "Urknall-Theorie" }
+      ]
+    },
+    {
+      "id": "cat6",
+      "title": "Mathematik",
+      "questions": [
+        { "points": 100, "question": "Wie viel ist 12 × 12?", "answer": "144" },
+        { "points": 200, "question": "Wie heißt die Zahl π ungefähr?", "answer": "3,14159..." },
+        { "points": 300, "question": "Wie nennt man eine Zahl, die nur durch 1 und sich selbst teilbar ist?", "answer": "Primzahl" },
+        { "points": 400, "question": "Wie nennt man die Lehre der Wahrscheinlichkeiten?", "answer": "Stochastik" },
+        { "points": 500, "question": "Welche berühmte Gleichung beschreibt den Satz des Pythagoras?", "answer": "a² + b² = c²" }
+      ]
+    }
+  ]
+}

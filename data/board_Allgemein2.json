@@ -1,0 +1,70 @@
+{
+  "categories": [
+    {
+      "id": "cat1",
+      "title": "Länder & Hauptstädte",
+      "questions": [
+        { "points": 100, "question": "Welche Hauptstadt hat Frankreich?", "answer": "Paris" },
+        { "points": 200, "question": "Welche Hauptstadt hat Argentinien?", "answer": "Buenos Aires" },
+        { "points": 300, "question": "In welchem Land liegt die Hauptstadt Wellington?", "answer": "Neuseeland" },
+        { "points": 400, "question": "Welche Hauptstadt liegt am Tiber?", "answer": "Rom" },
+        { "points": 500, "question": "Wie heißt die Hauptstadt von Kasachstan?", "answer": "Astana (ehemals Nur-Sultan)" }
+      ]
+    },
+    {
+      "id": "cat2",
+      "title": "Tiere",
+      "questions": [
+        { "points": 100, "question": "Welches Tier bellt?", "answer": "Der Hund" },
+        { "points": 200, "question": "Welcher Vogel kann nicht fliegen, aber sehr schnell rennen?", "answer": "Der Strauß" },
+        { "points": 300, "question": "Welches ist das größte Säugetier der Erde?", "answer": "Der Blauwal" },
+        { "points": 400, "question": "Welches Tier hält echten Winterschlaf: Bär oder Igel?", "answer": "Der Igel" },
+        { "points": 500, "question": "Wie nennt man die Tiergruppe von Kröten, Fröschen und Salamandern?", "answer": "Amphibien" }
+      ]
+    },
+    {
+      "id": "cat3",
+      "title": "Pflanzen & Natur",
+      "questions": [
+        { "points": 100, "question": "Was produzieren Pflanzen durch Photosynthese?", "answer": "Sauerstoff" },
+        { "points": 200, "question": "Wie nennt man Pflanzen, die jedes Jahr neu wachsen?", "answer": "Einjährige Pflanzen" },
+        { "points": 300, "question": "Welcher Baum ist für seine Eicheln bekannt?", "answer": "Die Eiche" },
+        { "points": 400, "question": "Wie heißt der größte Regenwald der Erde?", "answer": "Der Amazonas-Regenwald" },
+        { "points": 500, "question": "Welche Pflanze ist bekannt für ihre fleischfressenden Blätter?", "answer": "Die Venusfliegenfalle" }
+      ]
+    },
+    {
+      "id": "cat4",
+      "title": "Erfindungen",
+      "questions": [
+        { "points": 100, "question": "Wer erfand das Telefon?", "answer": "Alexander Graham Bell" },
+        { "points": 200, "question": "Wer erfand die Glühbirne (Patentrecht)?", "answer": "Thomas Edison" },
+        { "points": 300, "question": "Welches Land entwickelte als erstes Schießpulver?", "answer": "China" },
+        { "points": 400, "question": "Wie heißt der Erfinder des Buchdrucks?", "answer": "Johannes Gutenberg" },
+        { "points": 500, "question": "Welche Innovation erfand Nikola Tesla, die den Wechselstrom revolutionierte?", "answer": "Dreiphasen-Wechselstromsystem" }
+      ]
+    },
+    {
+      "id": "cat5",
+      "title": "Weltwunder",
+      "questions": [
+        { "points": 100, "question": "Wie heißt der Turm in Pisa?", "answer": "Der Schiefe Turm von Pisa" },
+        { "points": 200, "question": "Wo befindet sich die Christusstatue Cristo Redentor?", "answer": "Rio de Janeiro" },
+        { "points": 300, "question": "Welches Weltwunder liegt in Jordanien?", "answer": "Petra" },
+        { "points": 400, "question": "Wie heißt die antike Grabstätte im heutigen Türkei, eines der 7 Weltwunder?", "answer": "Das Mausoleum von Halikarnassos" },
+        { "points": 500, "question": "Welches antike Weltwunder befand sich in Babylon?", "answer": "Die Hängenden Gärten" }
+      ]
+    },
+    {
+      "id": "cat6",
+      "title": "Ozeane & Meere",
+      "questions": [
+        { "points": 100, "question": "Wie heißt der größte Ozean?", "answer": "Der Pazifik" },
+        { "points": 200, "question": "Welches Meer liegt zwischen Afrika und der Arabischen Halbinsel?", "answer": "Das Rote Meer" },
+        { "points": 300, "question": "Wie heißt die Meeresströmung, die Europa wärmt?", "answer": "Der Golfstrom" },
+        { "points": 400, "question": "Welcher Ozean ist am kältesten?", "answer": "Der Arktische Ozean" },
+        { "points": 500, "question": "Wie heißt der tiefste Punkt der Erde?", "answer": "Der Marianengraben" }
+      ]
+    }
+  ]
+}

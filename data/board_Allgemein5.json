@@ -1,0 +1,70 @@
+{
+  "categories": [
+    {
+      "id": "cat1",
+      "title": "Popkultur",
+      "questions": [
+        { "points": 100, "question": "Wie heißt der berühmteste Zauberlehrling der Welt?", "answer": "Harry Potter" },
+        { "points": 200, "question": "Welche Streaming-Plattform produziert 'Stranger Things'?", "answer": "Netflix" },
+        { "points": 300, "question": "Welche Anime-Serie handelt von Drachenbällen?", "answer": "Dragon Ball" },
+        { "points": 400, "question": "Wie heißt das fiktive Metall in Marvel, aus dem Captain Americas Schild besteht?", "answer": "Vibranium" },
+        { "points": 500, "question": "Wie heißt das Lied, das 2012 als erstes 1 Milliarde YouTube-Views erreichte?", "answer": "Gangnam Style" }
+      ]
+    },
+    {
+      "id": "cat2",
+      "title": "Essen & Trinken",
+      "questions": [
+        { "points": 100, "question": "Aus welchem Land stammt Sushi?", "answer": "Japan" },
+        { "points": 200, "question": "Welche Zutat macht Brot locker?", "answer": "Hefe" },
+        { "points": 300, "question": "Wie nennt man getrocknete Pflaumen?", "answer": "Backpflaumen" },
+        { "points": 400, "question": "Welches alkoholfreie Getränk war das erste Coca-Cola-Produkt?", "answer": "Coca-Cola (ursprünglich medizinischer Sirup)" },
+        { "points": 500, "question": "Welche Küche ist für Pho und Banh Mi bekannt?", "answer": "Vietnamese Küche" }
+      ]
+    },
+    {
+      "id": "cat3",
+      "title": "Menschen & Länder",
+      "questions": [
+        { "points": 100, "question": "Wie nennt man Einwohner aus Frankreich?", "answer": "Franzosen" },
+        { "points": 200, "question": "Wie viele Menschen leben grob auf der Erde? (Stand: 2023)", "answer": "Rund 8 Milliarden" },
+        { "points": 300, "question": "Wie heißt die größte Religion der Welt?", "answer": "Christentum" },
+        { "points": 400, "question": "Welches Land hat die meisten Zeitzonen?", "answer": "Frankreich (inkl. Überseegebiete)" },
+        { "points": 500, "question": "In welchem Land liegt die am dichtesten besiedelte Stadt der Welt (Tokio)?", "answer": "Japan" }
+      ]
+    },
+    {
+      "id": "cat4",
+      "title": "Erde & Natur",
+      "questions": [
+        { "points": 100, "question": "Wie viele Kontinente gibt es?", "answer": "7" },
+        { "points": 200, "question": "Was ist der tiefste Punkt der Erde?", "answer": "Marianengraben" },
+        { "points": 300, "question": "Welche Wolkenform bedeutet Gewitter?", "answer": "Cumulonimbus" },
+        { "points": 400, "question": "Wie heißt das größte Korallenriff der Welt?", "answer": "Great Barrier Reef" },
+        { "points": 500, "question": "Welcher Vulkan zerstörte Pompeji?", "answer": "Vesuv" }
+      ]
+    },
+    {
+      "id": "cat5",
+      "title": "Kunst & Unterhaltung",
+      "questions": [
+        { "points": 100, "question": "Wie heißt die berühmte Uhr in London?", "answer": "Big Ben" },
+        { "points": 200, "question": "Wer schrieb „Der Herr der Ringe“?", "answer": "J.R.R. Tolkien" },
+        { "points": 300, "question": "Welche Serie spielt in Westeros?", "answer": "Game of Thrones" },
+        { "points": 400, "question": "Wie heißt der berühmteste Mime der Filmgeschichte?", "answer": "Charlie Chaplin" },
+        { "points": 500, "question": "Welcher Maler schuf 'Guernica'?", "answer": "Pablo Picasso" }
+      ]
+    },
+    {
+      "id": "cat6",
+      "title": "Wissen Querbeet",
+      "questions": [
+        { "points": 100, "question": "Wie viele Tage hat ein Schaltjahr?", "answer": "366" },
+        { "points": 200, "question": "Was ist das chemische Symbol für Gold?", "answer": "Au" },
+        { "points": 300, "question": "Wie heißt das größte Organ des Menschen?", "answer": "Die Haut" },
+        { "points": 400, "question": "Welcher Wissenschaftler formulierte die Bewegungsgesetze?", "answer": "Isaac Newton" },
+        { "points": 500, "question": "Wie heißt die Theorie über die Entwicklung der Arten?", "answer": "Evolutionstheorie" }
+      ]
+    }
+  ]
+}

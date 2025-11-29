@@ -1,0 +1,70 @@
+{
+  "categories": [
+    {
+      "id": "cat1",
+      "title": "Geografie",
+      "questions": [
+        { "points": 100, "question": "Welches ist das größte Land der Welt?", "answer": "Russland" },
+        { "points": 200, "question": "Wie heißt die Hauptstadt von Australien?", "answer": "Canberra" },
+        { "points": 300, "question": "Welcher Fluss fließt durch Ägypten?", "answer": "Der Nil" },
+        { "points": 400, "question": "In welchem Land liegt der Vulkan Vesuv?", "answer": "Italien" },
+        { "points": 500, "question": "Wie heißt die größte Wüste der Erde?", "answer": "Die Antarktische Eiswüste" }
+      ]
+    },
+    {
+      "id": "cat2",
+      "title": "Geschichte",
+      "questions": [
+        { "points": 100, "question": "In welchem Jahr fiel die Berliner Mauer?", "answer": "1989" },
+        { "points": 200, "question": "Wer war der erste Präsident der USA?", "answer": "George Washington" },
+        { "points": 300, "question": "Wie hieß der berühmte Pharao mit dem goldenen Grab?", "answer": "Tutanchamun" },
+        { "points": 400, "question": "Welcher Krieg endete 1945?", "answer": "Zweiter Weltkrieg" },
+        { "points": 500, "question": "Welches Reich wurde im Jahr 476 nach Christus offiziell beendet?", "answer": "Weströmisches Reich" }
+      ]
+    },
+    {
+      "id": "cat3",
+      "title": "Wissenschaft",
+      "questions": [
+        { "points": 100, "question": "Wie lautet die chemische Formel von Wasser?", "answer": "H₂O" },
+        { "points": 200, "question": "Welcher Planet ist der Sonne am nächsten?", "answer": "Merkur" },
+        { "points": 300, "question": "Welches Organ pumpt Blut durch den Körper?", "answer": "Das Herz" },
+        { "points": 400, "question": "Wie nennt man die Wissenschaft der Lebewesen?", "answer": "Biologie" },
+        { "points": 500, "question": "Wie heißt die kleinste Einheit genetischer Information?", "answer": "Das Gen" }
+      ]
+    },
+    {
+      "id": "cat4",
+      "title": "Sport",
+      "questions": [
+        { "points": 100, "question": "Wie viele Spieler stehen im Fußball pro Team auf dem Feld?", "answer": "11" },
+        { "points": 200, "question": "In welcher Sportart wird ein Puck benutzt?", "answer": "Eishockey" },
+        { "points": 300, "question": "Wie heißt der berühmteste Fahrradwettbewerb der Welt?", "answer": "Tour de France" },
+        { "points": 400, "question": "Wer gewann die Fußball-WM 2014?", "answer": "Deutschland" },
+        { "points": 500, "question": "Wie spricht man den Schlag mit 3 Treffern beim Darts aus?", "answer": "180" }
+      ]
+    },
+    {
+      "id": "cat5",
+      "title": "Kunst & Kultur",
+      "questions": [
+        { "points": 100, "question": "Wer malte die Mona Lisa?", "answer": "Leonardo da Vinci" },
+        { "points": 200, "question": "Wie nennt man ein großes Orchesterstück?", "answer": "Symphonie" },
+        { "points": 300, "question": "Welcher Künstler schnitt sich ein Ohr ab?", "answer": "Vincent van Gogh" },
+        { "points": 400, "question": "Wie heißt das berühmteste Opernhaus in Sydney?", "answer": "Sydney Opera House" },
+        { "points": 500, "question": "Aus welcher Epoche stammt Michelangelos David?", "answer": "Renaissance" }
+      ]
+    },
+    {
+      "id": "cat6",
+      "title": "Literatur",
+      "questions": [
+        { "points": 100, "question": "Wer schrieb 'Harry Potter'?", "answer": "J.K. Rowling" },
+        { "points": 200, "question": "Wie heißt die Hauptfigur aus 'Der kleine Prinz'?", "answer": "Der kleine Prinz" },
+        { "points": 300, "question": "Welcher Autor schrieb '1984'?", "answer": "George Orwell" },
+        { "points": 400, "question": "Wie heißt das Epos von Homer über den Trojanischen Krieg?", "answer": "Die Ilias" },
+        { "points": 500, "question": "Welcher russische Autor schrieb 'Krieg und Frieden'?", "answer": "Leo Tolstoi" }
+      ]
+    }
+  ]
+}

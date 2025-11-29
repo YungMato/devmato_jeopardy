@@ -1,0 +1,70 @@
+{
+  "categories": [
+    {
+      "id": "cat1",
+      "title": "Champion-Zitate",
+      "questions": [
+        { "points": 100, "question": "Welcher Champion sagt: 'Demacia!'" , "answer": "Garen" },
+        { "points": 200, "question": "Wer sagt: 'Time to make an impact!'", "answer": "Vi" },
+        { "points": 300, "question": "Wer sagt: 'You belong in a museum!'", "answer": "Ezreal" },
+        { "points": 400, "question": "Welcher Champion sagt: 'The rivers will run red!'", "answer": "Katarina" },
+        { "points": 500, "question": "Wer sagt: 'They will fear the wild!'", "answer": "Nidalee" }
+      ]
+    },
+    {
+      "id": "cat2",
+      "title": "Champion-Identitäten",
+      "questions": [
+        { "points": 100, "question": "Welcher Champion ist ein yordle mit einer Waffe namens 'Poppy Hammer'?", "answer": "Poppy" },
+        { "points": 200, "question": "Wer ist der Champion, der 'The Unforgiven' genannt wird?", "answer": "Yasuo" },
+        { "points": 300, "question": "Welcher Champion ist halb Mensch, halb Fuchs?", "answer": "Ahri" },
+        { "points": 400, "question": "Welcher Champion ist ein 'Revenant' aus den Toten zurückgekehrt?", "answer": "Kalista" },
+        { "points": 500, "question": "Welcher Champion hat zwei Persönlichkeiten in einem Körper?", "answer": "Kayn (Rhaast)" }
+      ]
+    },
+    {
+      "id": "cat3",
+      "title": "Beziehungen",
+      "questions": [
+        { "points": 100, "question": "Wer ist die Schwester von Kayle?", "answer": "Morgana" },
+        { "points": 200, "question": "Welche zwei Champions sind Teil eines Lovestory-Duos?", "answer": "Xayah & Rakan" },
+        { "points": 300, "question": "Wer ist der Vater von Vi und Jinx (nach Arcane-Lore)?", "answer": "Vander (adoptiert)" },
+        { "points": 400, "question": "Welche zwei Champions hatten ein enges Verhältnis vor dem Tod eines der beiden?", "answer": "Lucian & Senna" },
+        { "points": 500, "question": "Welcher Champion tötete Yone ursprünglich?", "answer": "Yasuo" }
+      ]
+    },
+    {
+      "id": "cat4",
+      "title": "Klassen und Typen",
+      "questions": [
+        { "points": 100, "question": "Zu welcher Klasse gehört Ashe?", "answer": "Marksman" },
+        { "points": 200, "question": "Welche Klasse besitzt hohe Burst-Damage-Fähigkeiten?", "answer": "Assassins" },
+        { "points": 300, "question": "Welche Championklasse tankt am meisten Schaden?", "answer": "Tanks" },
+        { "points": 400, "question": "Welche Rolle nutzt am meisten Crowd Control?", "answer": "Supports" },
+        { "points": 500, "question": "Welche Klasse spielt hauptsächlich auf der Mitte?", "answer": "Mage / Assassin" }
+      ]
+    },
+    {
+      "id": "cat5",
+      "title": "Lanepatterns",
+      "questions": [
+        { "points": 100, "question": "Wie nennt man das frühe Spiel?", "answer": "Early Game" },
+        { "points": 200, "question": "Wie nennt man das aggressive Poken in der Lane?", "answer": "Harass" },
+        { "points": 300, "question": "Wie nennt man einen Jungle-Versuch, jemand zu töten?", "answer": "Gank" },
+        { "points": 400, "question": "Wie nennt man bewusstes Sterben für Ressourcen?", "answer": "Inten (Ironie, kein offizieller Begriff)" },
+        { "points": 500, "question": "Wie nennt man das bewusste Manipulieren der Minion-Waves?", "answer": "Wave Management" }
+      ]
+    },
+    {
+      "id": "cat6",
+      "title": "Ranked & Competitive",
+      "questions": [
+        { "points": 100, "question": "Welcher Rang kommt nach Bronze?", "answer": "Silber" },
+        { "points": 200, "question": "Wie viele Challenger-Spieler gibt es pro Region?", "answer": "300" },
+        { "points": 300, "question": "Wie heißt die höchste internationale Trophäe?", "answer": "Summoner's Cup" },
+        { "points": 400, "question": "Welche Position hat die größte Solo Carry Power?", "answer": "Jungle / Mid" },
+        { "points": 500, "question": "Wie heißt das wichtigste internationale LoL-Midseason-Turnier?", "answer": "MSI (Mid-Season Invitational)" }
+      ]
+    }
+  ]
+}

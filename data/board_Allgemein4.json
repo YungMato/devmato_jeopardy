@@ -1,0 +1,70 @@
+{
+  "categories": [
+    {
+      "id": "cat1",
+      "title": "Antike",
+      "questions": [
+        { "points": 100, "question": "Welches Volk baute die Pyramiden?", "answer": "Die Ägypter" },
+        { "points": 200, "question": "Wie hieß der König von Makedonien, der ein Weltreich eroberte?", "answer": "Alexander der Große" },
+        { "points": 300, "question": "Welche Stadt wurde 79 n. Chr. durch den Vesuv zerstört?", "answer": "Pompeji" },
+        { "points": 400, "question": "Wer war der oberste Gott der Griechen?", "answer": "Zeus" },
+        { "points": 500, "question": "Wie hieß das berühmteste Orakel der Antike?", "answer": "Das Orakel von Delphi" }
+      ]
+    },
+    {
+      "id": "cat2",
+      "title": "Mittelalter",
+      "questions": [
+        { "points": 100, "question": "Wie nennt man die Krieger des mittelalterlichen Japans?", "answer": "Samurai" },
+        { "points": 200, "question": "Welche Religion verbreitete sich im Mittelalter nach Europa?", "answer": "Das Christentum" },
+        { "points": 300, "question": "Wie wurde der Schwarze Tod noch genannt?", "answer": "Die Pest" },
+        { "points": 400, "question": "Wie nannte man die Herrscher des Fränkischen Reiches?", "answer": "Die Karolinger" },
+        { "points": 500, "question": "Wie hieß der berühmte Kaiser des Heiligen Römischen Reiches, gekrönt 800?", "answer": "Karl der Große" }
+      ]
+    },
+    {
+      "id": "cat3",
+      "title": "Neuzeit",
+      "questions": [
+        { "points": 100, "question": "Welches Land entdeckte Christoph Kolumbus 1492?", "answer": "Amerika" },
+        { "points": 200, "question": "Wie heißt die berühmte Erklärung von 1776?", "answer": "Unabhängigkeitserklärung der USA" },
+        { "points": 300, "question": "Welcher Krieg dauerte von 1914–1918?", "answer": "Erster Weltkrieg" },
+        { "points": 400, "question": "Welche Revolution begann 1789?", "answer": "Französische Revolution" },
+        { "points": 500, "question": "Wie nennt man die politische Spannung zwischen USA und UdSSR im 20. Jahrhundert?", "answer": "Kalter Krieg" }
+      ]
+    },
+    {
+      "id": "cat4",
+      "title": "Kunst",
+      "questions": [
+        { "points": 100, "question": "Wer malte die Sternennacht?", "answer": "Vincent van Gogh" },
+        { "points": 200, "question": "Welche Kunstrichtung prägte Picasso?", "answer": "Kubismus" },
+        { "points": 300, "question": "Wer gilt als größter Bildhauer der Renaissance?", "answer": "Michelangelo" },
+        { "points": 400, "question": "Welche Farbtechnik nutzten die Impressionisten stark?", "answer": "Punktierte Farbtupfer / Lichtmalerei" },
+        { "points": 500, "question": "Wie heißt das weltgrößte Kunstmuseum?", "answer": "Der Louvre" }
+      ]
+    },
+    {
+      "id": "cat5",
+      "title": "Musik",
+      "questions": [
+        { "points": 100, "question": "Wer komponierte die 9. Sinfonie?", "answer": "Ludwig van Beethoven" },
+        { "points": 200, "question": "Welche Musikrichtung prägte Elvis Presley?", "answer": "Rock 'n' Roll" },
+        { "points": 300, "question": "Wie nennt man eine Gruppe von vier Musikern?", "answer": "Quartett" },
+        { "points": 400, "question": "Wie heißt die berühmte Oper von Mozart mit der Königin der Nacht?", "answer": "Die Zauberflöte" },
+        { "points": 500, "question": "Wie lautet der Fachbegriff für das Tempo eines Musikstücks?", "answer": "Tempo / Taktmaß / Metronomangabe" }
+      ]
+    },
+    {
+      "id": "cat6",
+      "title": "Weltkulturen",
+      "questions": [
+        { "points": 100, "question": "Wie heißt der berühmteste Feiertag in Mexiko?", "answer": "Día de los Muertos" },
+        { "points": 200, "question": "Welche asiatische Religion hat Siddhartha Gautama gegründet?", "answer": "Buddhismus" },
+        { "points": 300, "question": "Wie heißt die traditionelle Kleidung in Schottland?", "answer": "Der Kilt" },
+        { "points": 400, "question": "Welches Land ist für seine Maori-Kultur bekannt?", "answer": "Neuseeland" },
+        { "points": 500, "question": "Wie heißt das indische Epos mit Krishna als Held?", "answer": "Mahabharata" }
+      ]
+    }
+  ]
+}

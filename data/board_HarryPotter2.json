@@ -1,0 +1,70 @@
+{
+  "categories": [
+    {
+      "id": "cat1",
+      "title": "Hauptcharaktere",
+      "questions": [
+        { "points": 100, "question": "Wie lautet Harrys voller Name?", "answer": "Harry James Potter" },
+        { "points": 200, "question": "Wie heißt Ron Weasleys jüngste Schwester?", "answer": "Ginny Weasley" },
+        { "points": 300, "question": "Welches Tier kann Hermione als Patronus herbeirufen?", "answer": "Ein Otter" },
+        { "points": 400, "question": "Was ist Harrys zweiter Patronus in den Filmen?", "answer": "Es gibt nur einen: Hirsch" },
+        { "points": 500, "question": "Welches Amt bekleidet Harry später in seinem Berufsleben?", "answer": "Leiter der Auroren-Abteilung im Zaubereiministerium" }
+      ]
+    },
+    {
+      "id": "cat2",
+      "title": "Orte der Zauberwelt",
+      "questions": [
+        { "points": 100, "question": "Wie heißt die Zauberbank in London?", "answer": "Gringotts" },
+        { "points": 200, "question": "Welches Gleis führt nach Hogwarts?", "answer": "Gleis 9¾" },
+        { "points": 300, "question": "Wie heißt das Dorf direkt bei Hogwarts?", "answer": "Hogsmeade" },
+        { "points": 400, "question": "Wo befindet sich der Eingang zur Kammer des Schreckens?", "answer": "Im Mädchenklo der Maulenden Myrte" },
+        { "points": 500, "question": "Welchen Ort erschuf Dumbledore, um den Orden des Phönix zu verstecken?", "answer": "Grimmauldplatz 12 (mit Fidelius-Zauber)" }
+      ]
+    },
+    {
+      "id": "cat3",
+      "title": "Dunkle Künste",
+      "questions": [
+        { "points": 100, "question": "Wie nennt man die Liebestränke der dunklen Magie?", "answer": "Amortentia (kein dunkler Trank, aber extrem gefährlich)" },
+        { "points": 200, "question": "Welcher Fluch tötet sofort?", "answer": "Avada Kedavra" },
+        { "points": 300, "question": "Welcher Zauber verursacht unerträgliche Schmerzen?", "answer": "Cruciatus" },
+        { "points": 400, "question": "Welcher Zauber kontrolliert das Opfer vollständig?", "answer": "Imperius" },
+        { "points": 500, "question": "Wie heißt der Zauber, der einen Horkrux erschafft?", "answer": "Nicht bekannt; der Prozess wird geheim gehalten" }
+      ]
+    },
+    {
+      "id": "cat4",
+      "title": "Orden des Phönix",
+      "questions": [
+        { "points": 100, "question": "Wer gründete den Orden des Phönix?", "answer": "Albus Dumbledore" },
+        { "points": 200, "question": "Wie heißt der Wolfsmensch im Orden?", "answer": "Remus Lupin" },
+        { "points": 300, "question": "Wer verriet die Potters an Voldemort?", "answer": "Peter Pettigrew" },
+        { "points": 400, "question": "Wie heißt Sirius Blacks Bruder?", "answer": "Regulus Arcturus Black" },
+        { "points": 500, "question": "Welches Objekt stahl Regulus aus Voldemorts Höhle?", "answer": "Das Horkrux-Medaillon" }
+      ]
+    },
+    {
+      "id": "cat5",
+      "title": "Zaubertränke",
+      "questions": [
+        { "points": 100, "question": "Welche Zutat ist für den Vielsafttrank zwingend notwendig?", "answer": "Ein Körperteil der Person (z. B. Haar)" },
+        { "points": 200, "question": "Wie heißt der Trank, der Glück bringt?", "answer": "Felix Felicis" },
+        { "points": 300, "question": "Wer war der ursprüngliche Erfinder des Halbblutprinzen-Zaubertrankbuchs?", "answer": "Severus Snape" },
+        { "points": 400, "question": "Welcher Trank lässt Gedanken und Emotionen verfliegen?", "answer": "Trank der lebenden Toten" },
+        { "points": 500, "question": "Wie lautet die schwierigste bekannte Zaubertrankklasse?", "answer": "OWLs und NEWTs Stufe 'Höchst anspruchsvoll'" }
+      ]
+    },
+    {
+      "id": "cat6",
+      "title": "Zauberstäbe",
+      "questions": [
+        { "points": 100, "question": "Welche Holzart hat Harrys Zauberstab?", "answer": "Stechpalme" },
+        { "points": 200, "question": "Welcher Kern steckt in Harrys Zauberstab?", "answer": "Phönixfeder" },
+        { "points": 300, "question": "Welche Zauberstabkern-Art ist besonders selten und mächtig?", "answer": "Drachenherzfaser" },
+        { "points": 400, "question": "Welcher Zauberstab gehörte Grindelwald?", "answer": "Der Elderstab" },
+        { "points": 500, "question": "Welcher seltene Kern kann dunkle Magie besonders gut leiten?", "answer": "Basiliskenhorn – nur in Fanon erwähnt;" }
+      ]
+    }
+  ]
+}

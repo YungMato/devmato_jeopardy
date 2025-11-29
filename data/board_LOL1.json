@@ -1,0 +1,70 @@
+{
+  "categories": [
+    {
+      "id": "cat1",
+      "title": "Champions (Basics)",
+      "questions": [
+        { "points": 100, "question": "Wie heißt der Champion, der als 'The Sinister Blade' bekannt ist?", "answer": "Katarina" },
+        { "points": 200, "question": "Welcher Champion benutzt einen Boomerang als Hauptwaffe?", "answer": "Sivir" },
+        { "points": 300, "question": "Welcher Champion hat eine Form, in der er zu einem Drachen wird?", "answer": "Shyvana" },
+        { "points": 400, "question": "Welcher Champion besitzt die Fähigkeit 'Piltover Peacemaker'?", "answer": "Caitlyn" },
+        { "points": 500, "question": "Welcher Champion wurde ursprünglich aus einem anderen Riot-Spiel übernommen (Ruined King)?", "answer": "Viego" }
+      ]
+    },
+    {
+      "id": "cat2",
+      "title": "Items",
+      "questions": [
+        { "points": 100, "question": "Welches Item gibt Lifesteal und Attack Damage?", "answer": "Klinge der Unendlichkeit (je nach Patch unterschiedlich, meist: Blutdürster)" },
+        { "points": 200, "question": "Wie heißt das Jungle-Item für Pets (z. B. Blue Pet)?", "answer": "Mosstomper/Scorchclaw/Gustwalker – je nach Version" },
+        { "points": 300, "question": "Welches Item liefert den Effekt 'Spellblade'?", "answer": "Sheen-basierte Items (z.B. Lich Bane, Trinity Force)" },
+        { "points": 400, "question": "Welches Support-Item verwandelt sich in ein 'Wardstone'-Upgrade?", "answer": "Support Starting Items (z.B. Spellthief’s, Relic Shield) → Watchful Wardstone" },
+        { "points": 500, "question": "Welches legendäre Item hat früher Aura-Reichweite erhöht?", "answer": "Athenes Unholy Grail (älteres LoL)" }
+      ]
+    },
+    {
+      "id": "cat3",
+      "title": "Karten & Ziele",
+      "questions": [
+        { "points": 100, "question": "Wie heißt das große Monster auf der oberen Flussseite?", "answer": "Rift Herald/Baron" },
+        { "points": 200, "question": "Wie viele Drachenarten gibt es typischerweise in Summoner’s Rift?", "answer": "Vier Grundarten (+ Elder)" },
+        { "points": 300, "question": "Wie nennt man das Inhibitor-verbesserte Minion?", "answer": "Superminion" },
+        { "points": 400, "question": "Welche neutrale Kreatur gewährt Kamerasicht über den Fluss?", "answer": "Scuttle Crab" },
+        { "points": 500, "question": "Wie heißt die Map, die früher für 3-vs-3 genutzt wurde?", "answer": "Twisted Treeline" }
+      ]
+    },
+    {
+      "id": "cat4",
+      "title": "Fähigkeiten",
+      "questions": [
+        { "points": 100, "question": "Zu welchem Champion gehört die Fähigkeit 'Rocket Jump'?", "answer": "Tristana" },
+        { "points": 200, "question": "Wer besitzt die Ultimate 'Feast'?", "answer": "Cho'Gath" },
+        { "points": 300, "question": "Welcher Champion hat eine globale Ultimate ohne Schaden, nur Utility?", "answer": "Shen" },
+        { "points": 400, "question": "Welche Fähigkeit in LoL ist eine der wenigen 'non-missile targeted spells'?", "answer": "Rengar’s Q, Renekton W, ..." },
+        { "points": 500, "question": "Wie heißt die E-Fähigkeit von Renekton?", "answer": "Slice and Dice/Schnitt und Tritt" }
+      ]
+    },
+    {
+      "id": "cat5",
+      "title": "Rolle & Position",
+      "questions": [
+        { "points": 100, "question": "Welche Position spielt üblicherweise der Champion 'Ashe'?", "answer": "ADC" },
+        { "points": 200, "question": "Welche Rolle hat durchschnittlich die meisten Wards im Spiel?", "answer": "Support" },
+        { "points": 300, "question": "Wann spawnt die Scuttlecrab?", "answer": "03:30min" },
+        { "points": 400, "question": "Wann spawnt der Bluebuff das erste mal?", "answer": "01:30min" },
+        { "points": 500, "question": "Was bewirkt der Buff Wappen der Asche/Crest of Cinders", "answer": "Out-Of-Combat Life-Reg, Slow + Brun auf AA" }
+      ]
+    },
+    {
+      "id": "cat6",
+      "title": "Esports (Basis)",
+      "questions": [
+        { "points": 100, "question": "Wie heißt die höchste Profi-Liga in Europa?", "answer": "LEC" },
+        { "points": 200, "question": "Welches Team gewann Worlds 2022?", "answer": "DRX" },
+        { "points": 300, "question": "Wer gilt als bester Midlaner der Geschichte?", "answer": "Faker" },
+        { "points": 400, "question": "Welche Region gewann Worlds am häufigsten?", "answer": "LCK (Korea)" },
+        { "points": 500, "question": "Welcher Spieler spielte gleichzeitig Jungle UND Mid bei Worlds 2015?", "answer": "Faker (situationsbedingt während eines Spiels)" }
+      ]
+    }
+  ]
+}

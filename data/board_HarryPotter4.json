@@ -1,0 +1,70 @@
+{
+  "categories": [
+    {
+      "id": "cat1",
+      "title": "Tiefes Zauberwissen",
+      "questions": [
+        { "points": 100, "question": "Wie heißt der Zauberspruch, der die Form eines Objekts in eine andere verwandelt?", "answer": "Transfigura (allgemein), aber korrekt: die Transfiguration selbst – kein einzelner Zauber" },
+        { "points": 200, "question": "Welcher Zauber erzeugt eine unbrechbare magische Bindung zwischen zwei Personen oder Gruppen?", "answer": "Der Unbrechbare Schwur (kein Zauberspruch, sondern ein Ritual)" },
+        { "points": 300, "question": "Wie lautet der lateinische Ursprung des Zaubers „Morsmordre“?", "answer": "„Mors“ = Tod, „mordre“ (frz.) = beißen; wörtlich: 'Tod beißt'" },
+        { "points": 400, "question": "Welcher Zauber kann das Erscheinen eines Irrwichts gezielt verhindern?", "answer": "Kein bekannter Zauber – nur Mentale Verteidigungsstrategien oder Kontrollzauber" },
+        { "points": 500, "question": "Wie lautet der Gegenzauber zu 'Fiendfyre'?", "answer": "Es gibt keinen zuverlässigen Gegenzauber; nur hochkomplexe Kontrollmagie kann es eindämmen" }
+      ]
+    },
+    {
+      "id": "cat2",
+      "title": "Buch-Only Wissen",
+      "questions": [
+        { "points": 100, "question": "Wie lautet der Spitzname von Hepzibah Smiths Hauselfen?", "answer": "Hokey" },
+        { "points": 200, "question": "Wie heißt der Zauberer, der im fünften Buch ein lebendes Dachs-Modell zum Leben erweckt?", "answer": "Wilkie Twycross (Apparierlehrer)" },
+        { "points": 300, "question": "Welcher Schüler ist im Buch der eigentliche Anführer der Slytherin-Quidditch-Mannschaft im 6. Teil?", "answer": "Urquhart" },
+        { "points": 400, "question": "Wie lautet der volle Name des 'Zauberers der Woche' in der Ausgabe, die Harry im vierten Buch liest?", "answer": "Wilhelm Wigworthy" },
+        { "points": 500, "question": "Welches Wesen im Wald verbietet im Buch strengstens, dass die Zentauren Menschen tragen?", "answer": "Magorian – einer der Anführer der Zentauren" }
+      ]
+    },
+    {
+      "id": "cat3",
+      "title": "Magische Genealogie",
+      "questions": [
+        { "points": 100, "question": "Wie heißt Neville Longbottoms Großmutter?", "answer": "Augusta Longbottom" },
+        { "points": 200, "question": "Welcher Zauberer war ein direkter Vorfahre von Voldemort (außer Marvolo und Morfin)?", "answer": "Cadmus Peverell" },
+        { "points": 300, "question": "Mit welcher uralten Zaubererfamilie sind die Blacks nicht entfernt verwandt?", "answer": "Den Weasleys – obwohl 'Blutsverräter', genealogisch verwandt" },
+        { "points": 400, "question": "Welche Blutlinie verbindet die Gaunts mit Salazar Slytherin?", "answer": "Direkte patrilineare Abstammungslinie" },
+        { "points": 500, "question": "Wie lautet der vollständige Name der Mutter von Tom Riddle?", "answer": "Merope Gaunt" }
+      ]
+    },
+    {
+      "id": "cat4",
+      "title": "Geheimnisse & Kanon",
+      "questions": [
+        { "points": 100, "question": "Welcher Hogwarts-Geist hat den kürzesten offiziellen Auftritt im Hauptkanon?", "answer": "Fast kopfloser Nick hat die meisten Erwähnungen; am seltensten: Die Vertrauensschüler-Geister (keine Namen)" },
+        { "points": 200, "question": "Welche Person erstellte den allerersten Tarnumhang in der Zauberwelt?", "answer": "Der Tod selbst – laut der Peverell-Legende" },
+        { "points": 300, "question": "Wer war ursprünglich im Roman für die Ermordung von Dumbledores Schwester verantwortlich laut Aberforths Aussage?", "answer": "Niemand weiß es genau – vermutlich Grindelwald oder versehentlich Albus" },
+        { "points": 400, "question": "Welche Funktion hatten die 'Seherpropheten' in der magischen Gesellschaft historisch?", "answer": "Sie dienten früher als offizielle Registrierungsstelle für Prophezeiungen" },
+        { "points": 500, "question": "Welcher Auror führte die strengsten Anti-Dark-Arts-Prozesse im 18. Jahrhundert?", "answer": "Eldritch Diggory (auch ehemaliger Zaubereiminister)" }
+      ]
+    },
+    {
+      "id": "cat5",
+      "title": "Details aus Interviews",
+      "questions": [
+        { "points": 100, "question": "Welches Hogwarts-Haus hätte Rowling selbst gewählt?", "answer": "Hufflepuff" },
+        { "points": 200, "question": "Welcher Charakter sollte ursprünglich sterben, wurde aber von Rowling verschont?", "answer": "Arthur Weasley" },
+        { "points": 300, "question": "Wen wollte Rowling ursprünglich mit Hermione zusammenbringen?", "answer": "Draco Malfoy (nur kurz erwogen, später verworfen)" },
+        { "points": 400, "question": "Welchen Patronus hätte Voldemort laut Rowling theoretisch?", "answer": "Keinen – seine Seele ist zu zerrissen" },
+        { "points": 500, "question": "Welchen Beruf hätte Harry laut Rowling gehabt, wenn er kein Auror geworden wäre?", "answer": "Quidditch-Trainer oder Lehrer für Verteidigung gegen die dunklen Künste" }
+      ]
+    },
+    {
+      "id": "cat6",
+      "title": "Extrem schwierige Fakten",
+      "questions": [
+        { "points": 100, "question": "Welche Pflanzenart tötet den Basilisken im zweiten Buch indirekt?", "answer": "Der Alraunentrank heilt die Versteinerten – indirekt Gegenmaßnahme" },
+        { "points": 200, "question": "Welche Farbe hat das Licht des Zaubers, der die Kopfschmerzen von Ron im 7. Band lindern soll?", "answer": "Bläulich-weiß (kein offizieller Name)" },
+        { "points": 300, "question": "Welche Zauberin schuf den ersten funktionierenden Unsichtbarkeitstrank der Geschichte?", "answer": "Die mittelalterliche Hexe Delfina Crimp – nicht im Hauptkanon, aber in Pottermore erwähnt" },
+        { "points": 400, "question": "Welcher Charakter besitzt die früheste Erwähnung eines eigenen Zauberstabkerns im Kanon?", "answer": "Ollivanders Familie seit dem 4. Jahrhundert v. Chr. (Garrick Ollivander erwähnt Drachenherzfaser zuerst)" },
+        { "points": 500, "question": "Welche historische magische Kultur war laut Rowling am weitesten fortgeschritten – vor Hogwarts?", "answer": "Die Druiden und altkeltischen Zauberer, sowie die altgriechischen Zauberer (laut Pottermore)" }
+      ]
+    }
+  ]
+}

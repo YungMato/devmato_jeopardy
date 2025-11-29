@@ -1,0 +1,70 @@
+{
+  "categories": [
+    {
+      "id": "cat1",
+      "title": "Filmwissen",
+      "questions": [
+        { "points": 100, "question": "Wie viele Filme umfasst die Harry-Potter-Reihe?", "answer": "Acht Filme" },
+        { "points": 200, "question": "Welcher Schauspieler spielt Severus Snape?", "answer": "Alan Rickman" },
+        { "points": 300, "question": "In welchem Film erscheint Luna Lovegood zum ersten Mal?", "answer": "Der Orden des Phönix" },
+        { "points": 400, "question": "Wie lautet der Name des ersten Films?", "answer": "Harry Potter und der Stein der Weisen" },
+        { "points": 500, "question": "Welcher Regisseur drehte die meisten Filme der Reihe?", "answer": "David Yates" }
+      ]
+    },
+    {
+      "id": "cat2",
+      "title": "Zauberwelt Trivia",
+      "questions": [
+        { "points": 100, "question": "Wie heißt der Tagespropheten-Reporter?", "answer": "Rita Kimmkorn" },
+        { "points": 200, "question": "Wie lautet die Währung der Zauberer?", "answer": "Galleonen, Sickel, Knuts" },
+        { "points": 300, "question": "Wie heißt das Gefängnis der Zaubererwelt?", "answer": "Azkaban" },
+        { "points": 400, "question": "Welcher Zauber erschafft einen Patronus?", "answer": "Expecto Patronum" },
+        { "points": 500, "question": "Wie viele Schuljahre dauert eine Hogwarts-Ausbildung?", "answer": "Sieben Jahre" }
+      ]
+    },
+    {
+      "id": "cat3",
+      "title": "Quidditch",
+      "questions": [
+        { "points": 100, "question": "Wie viele Spieler hat ein Quidditch-Team?", "answer": "Sieben" },
+        { "points": 200, "question": "Wie viele Punkte ist der Schnatz wert?", "answer": "150 Punkte" },
+        { "points": 300, "question": "Wie heißt der Hüter des Gryffindor-Teams?", "answer": "Oliver Wood" },
+        { "points": 400, "question": "Wie lautet der Name des Balls, den die Klatscher verfolgen?", "answer": "Klatscher (Bludgers)" },
+        { "points": 500, "question": "Wie heißt der legendäre Erfinder des modernen Quidditch?", "answer": "Goderic Gryffindor (Mythos) oder laut Kanon: Die Hexe Gertie Keddle erwähnte das frühe Spiel 'Kwidditsch'" }
+      ]
+    },
+    {
+      "id": "cat4",
+      "title": "Weasleys Welt",
+      "questions": [
+        { "points": 100, "question": "Wie heißt das Haus der Weasleys?", "answer": "Der Fuchsbau" },
+        { "points": 200, "question": "Wie heißt das von Fred und George gegründete Geschäft?", "answer": "Weasleys Zauberhafte Zauberscherzartikel" },
+        { "points": 300, "question": "Welche Farbe hat Rons kaputter Zauberstab?", "answer": "Eschenholz (nicht farbig, aber im Film eher beige/grau)" },
+        { "points": 400, "question": "Wie heißt der älteste Weasley-Bruder?", "answer": "Bill Weasley" },
+        { "points": 500, "question": "Was ist der Beruf von Charlie Weasley?", "answer": "Drachenbändiger in Rumänien" }
+      ]
+    },
+    {
+      "id": "cat5",
+      "title": "Die Heiligtümer",
+      "questions": [
+        { "points": 100, "question": "Wie viele Heiligtümer des Todes gibt es?", "answer": "Drei" },
+        { "points": 200, "question": "Welches Heiligtum gehört zum Tod selbst?", "answer": "Der Elderstab" },
+        { "points": 300, "question": "Welcher Weasley besitzt den Tarnumhang kurzzeitig?", "answer": "Ron Weasley (im zweiten Teil)" },
+        { "points": 400, "question": "Was zeigt das Symbol der Heiligtümer?", "answer": "Dreieck (Umhang), Kreis (Stein), Linie (Stab)" },
+        { "points": 500, "question": "Wer war der ursprüngliche Besitzer des Elderstabs?", "answer": "Antioch Peverell" }
+      ]
+    },
+    {
+      "id": "cat6",
+      "title": "Hardcore-Facts",
+      "questions": [
+        { "points": 100, "question": "Wie lautet der zweite Vorname von Voldemort?", "answer": "Marvolo" },
+        { "points": 200, "question": "Wie heißt der Zentaur, der Harry rettet?", "answer": "Firenze" },
+        { "points": 300, "question": "Wie lautet der echte Name des Halbblutprinzen?", "answer": "Severus Snape" },
+        { "points": 400, "question": "Welche Sprache spricht Harry nur dank seines Horcrux-Zustands?", "answer": "Parselsch" },
+        { "points": 500, "question": "Wie lautet der volle Name von Dumbledore?", "answer": "Albus Percival Wulfric Brian Dumbledore" }
+      ]
+    }
+  ]
+}

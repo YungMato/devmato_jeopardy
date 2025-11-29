@@ -1,0 +1,70 @@
+{
+  "categories": [
+    {
+      "id": "cat1",
+      "title": "Filmklassiker",
+      "questions": [
+        { "points": 100, "question": "In welchem Film sagt der Protagonist: 'Ich bin dein Vater'?", "answer": "Star Wars: Episode V – Das Imperium schlägt zurück" },
+        { "points": 200, "question": "Wer spielte die Hauptrolle in 'Forrest Gump'?", "answer": "Tom Hanks" },
+        { "points": 300, "question": "Welcher Film gewann 1994 den Oscar für den besten Film?", "answer": "Forrest Gump" },
+        { "points": 400, "question": "Welcher Regisseur drehte den Film 'Psycho'?", "answer": "Alfred Hitchcock" },
+        { "points": 500, "question": "Wie lautet der vollständige Name der Hauptfigur aus 'Der Pate'?", "answer": "Vito Corleone" }
+      ]
+    },
+    {
+      "id": "cat2",
+      "title": "Superhelden",
+      "questions": [
+        { "points": 100, "question": "Zu welchem Universum gehört Iron Man?", "answer": "Marvel Cinematic Universe" },
+        { "points": 200, "question": "Wie lautet der bürgerliche Name von Batman?", "answer": "Bruce Wayne" },
+        { "points": 300, "question": "Welcher Film war der erste offizielle MCU-Film?", "answer": "Iron Man (2008)" },
+        { "points": 400, "question": "Wer spielt den Joker im Film 'The Dark Knight'?", "answer": "Heath Ledger" },
+        { "points": 500, "question": "Wie heißt die außerirdische Spezies, zu der Superman gehört?", "answer": "Kryptonier" }
+      ]
+    },
+    {
+      "id": "cat3",
+      "title": "Oscar-Wissen",
+      "questions": [
+        { "points": 100, "question": "Welche Statue erhält man bei den Oscars?", "answer": "Oscar / Academy Award" },
+        { "points": 200, "question": "Welcher Film gewann 2020 den Oscar für den besten Film?", "answer": "Parasite" },
+        { "points": 300, "question": "Wer gewann 2022 den Oscar als bester Hauptdarsteller?", "answer": "Will Smith" },
+        { "points": 400, "question": "Welche Schauspielerin erhielt die meisten Nominierungen in der Oscar-Geschichte?", "answer": "Meryl Streep" },
+        { "points": 500, "question": "Welcher Film gewann als erster nicht-englischsprachiger Film den Oscar für den besten Film?", "answer": "Parasite" }
+      ]
+    },
+    {
+      "id": "cat4",
+      "title": "Horror",
+      "questions": [
+        { "points": 100, "question": "In welchem Film erscheint ein Clown namens Pennywise?", "answer": "Es (It)" },
+        { "points": 200, "question": "Wer ist der Killer in 'Nightmare on Elm Street'?", "answer": "Freddy Krueger" },
+        { "points": 300, "question": "Welcher Horrorfilm basiert lose auf der wahren Geschichte der Warrens?", "answer": "The Conjuring" },
+        { "points": 400, "question": "Wie heißt das dämonische Wesen in 'Insidious' mit dem roten Gesicht?", "answer": "Lipstick-Face Demon" },
+        { "points": 500, "question": "Wie lautet der Name des Dämons, der in 'Der Exorzist' das Mädchen besessen hat?", "answer": "Pazuzu" }
+      ]
+    },
+    {
+      "id": "cat5",
+      "title": "Disney & Animation",
+      "questions": [
+        { "points": 100, "question": "Wie heißt der Löwe aus 'Der König der Löwen'?", "answer": "Simba" },
+        { "points": 200, "question": "In welchem Film singt Elsa 'Let It Go'?", "answer": "Frozen" },
+        { "points": 300, "question": "Wie heißt der Cowboy aus Toy Story?", "answer": "Woody" },
+        { "points": 400, "question": "Welcher Pixar-Film gewann 2018 den Oscar für den besten Animationsfilm?", "answer": "Coco" },
+        { "points": 500, "question": "Wie heißt die Drachenfigur aus 'Raya und der letzte Drache'?", "answer": "Sisu" }
+      ]
+    },
+    {
+      "id": "cat6",
+      "title": "Film-Musik",
+      "questions": [
+        { "points": 100, "question": "Wer komponierte die Musik zu 'Star Wars'?", "answer": "John Williams" },
+        { "points": 200, "question": "Welcher Sänger schrieb den Song 'My Heart Will Go On'?", "answer": "Celine Dion" },
+        { "points": 300, "question": "Welche Filmreihe enthält das Lied 'The Hanging Tree'?", "answer": "Die Tribute von Panem" },
+        { "points": 400, "question": "Für welchen Film gewann Hans Zimmer 2022 den Oscar?", "answer": "Dune" },
+        { "points": 500, "question": "Welche Komponistin schrieb den Soundtrack zu 'Joker'?", "answer": "Hildur Guðnadóttir" }
+      ]
+    }
+  ]
+}

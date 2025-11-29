@@ -1,0 +1,70 @@
+{
+  "categories": [
+    {
+      "id": "cat1",
+      "title": "Legendäre Items",
+      "questions": [
+        { "points": 100, "question": "Welches Item verleiht AD und Crit Chance und ist das wichtigste ADC-Core-Item?", "answer": "Infinity Edge" },
+        { "points": 200, "question": "Welches Item ermöglicht anhaltende Heilung durch Schaden?", "answer": "Blutdürster" },
+        { "points": 300, "question": "Welches Item gibt einer Fähigkeit plötzlich 'Spellblade'?", "answer": "Sheen / Trinity Force / Lich Bane" },
+        { "points": 400, "question": "Welches Tank-Item reflektiert Schaden zurück?", "answer": "Dornenpanzer (Thornmail)" },
+        { "points": 500, "question": "Welches Support-Item löst den Effekt 'Moonlight' aus?", "answer": "Moonstone Renewer" }
+      ]
+    },
+    {
+      "id": "cat2",
+      "title": "Buffs",
+      "questions": [
+        { "points": 100, "question": "Welcher Buff stärkt Attack Speed des Roten Buffs?", "answer": "Gibt Slow + DoT (Blue buff = CDR/Mana). Attack Speed: Elder doesn’t give; likely no buff gives pure AS." },
+        { "points": 200, "question": "Was macht der Baron Buff mit Minions?", "answer": "Verstärkt sie (Empowered Minions)" },
+        { "points": 300, "question": "Welcher Drache gibt Movement Speed?", "answer": "Cloud Dragon" },
+        { "points": 400, "question": "Welcher Drache erhöht Resistances?", "answer": "Mountain Dragon" },
+        { "points": 500, "question": "Welcher Buff früherer Seasons gab Mana-Regeneration und CDR?", "answer": "Blue Buff (Crest of Insight)" }
+      ]
+    },
+    {
+      "id": "cat3",
+      "title": "Spielmechaniken",
+      "questions": [
+        { "points": 100, "question": "Wie nennt man den vorhersehbaren Weg, den ein Skillshot fliegt?", "answer": "Projectile" },
+        { "points": 200, "question": "Wie nennt man das Herunterstoßen eines Gegners aus einer Fähigkeit heraus?", "answer": "Displacement" },
+        { "points": 300, "question": "Welche Mechanik verhindert, dass mehrere CC-Effekte stapeln?", "answer": "Tenacity (reduziert Dauer)" },
+        { "points": 400, "question": "Wie heißt das System, das bestimmt, wann Minions angreifen?", "answer": "Aggro-System" },
+        { "points": 500, "question": "Wie nennt man das Prinzip, dass Schaden zuerst auf Schilde geht, bevor HP beeinflusst werden?", "answer": "Damage Mitigation Flow (Shield first)" }
+      ]
+    },
+    {
+      "id": "cat4",
+      "title": "Objectives",
+      "questions": [
+        { "points": 100, "question": "Welcher Drache erhöht AD und AP?", "answer": "Infernal Dragon" },
+        { "points": 200, "question": "Welcher Drache verändert die Map stark?", "answer": "Ocean / Infernal / Mountain je nach Variation" },
+        { "points": 300, "question": "Welche neutrale Einheit hinterlässt zwei Augen-Punkte?", "answer": "Scuttle Crab" },
+        { "points": 400, "question": "Welche Kreatur taucht nur in der ersten Hälfte des Spiels auf?", "answer": "Rift Herald" },
+        { "points": 500, "question": "Was ist der exakte Name des Baron-Buffs?", "answer": "Hand of Baron" }
+      ]
+    },
+    {
+      "id": "cat5",
+      "title": "Runen",
+      "questions": [
+        { "points": 100, "question": "Welche Keystone-Rune erhöht Angriffstempo bei Angreifen eines Champions?", "answer": "Lethal Tempo" },
+        { "points": 200, "question": "Welche Rune erhöht Mana bei Fähigkeiten?", "answer": "Manaflow Band" },
+        { "points": 300, "question": "Welche Rune gibt Schildstärke nach CC oder Schaden an Verbündeten?", "answer": "Guardian" },
+        { "points": 400, "question": "Welche Präzisionsrune gewährt True Damage nach 3 Sekunden Kampf?", "answer": "Conqueror" },
+        { "points": 500, "question": "Welche Inspiration-Rune manipuliert Summoner Spells?", "answer": "Unsealed Spellbook" }
+      ]
+    },
+    {
+      "id": "cat6",
+      "title": "Champion-Mechanics",
+      "questions": [
+        { "points": 100, "question": "Welcher Champion hat eine Transformation (Mensch/Wolf)?", "answer": "Kindred (spirit essence form)" },
+        { "points": 200, "question": "Wer benutzt 'Rage', statt Mana?", "answer": "Renekton, Tryndamere, Gnar..." },
+        { "points": 300, "question": "Welcher Champion besitzt 4 elementare Formen?", "answer": "Udyr" },
+        { "points": 400, "question": "Welcher Champion kann Fähigkeiten stehlen?", "answer": "Sylas" },
+        { "points": 500, "question": "Welcher Champion besitzt eine absolut einzigartige Tarnmechanik im Fluss?", "answer": "Camille (Hextech passive interactions)" }
+      ]
+    }
+  ]
+}

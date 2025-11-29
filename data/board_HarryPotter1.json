@@ -1,0 +1,70 @@
+{
+  "categories": [
+    {
+      "id": "cat1",
+      "title": "Hogwarts Häuser",
+      "questions": [
+        { "points": 100, "question": "Welche Farbe steht für das Haus Gryffindor?", "answer": "Rot" },
+        { "points": 200, "question": "Welches Tier ist das Wappentier von Ravenclaw?", "answer": "Adler" },
+        { "points": 300, "question": "Wie heißt der Gründer von Slytherin mit Vornamen?", "answer": "Salazar" },
+        { "points": 400, "question": "Welches Haus akzeptiert nur Schüler mit Loyalität und Fleiß?", "answer": "Hufflepuff" },
+        { "points": 500, "question": "Welches Haus hat den höchsten Turm in Hogwarts als Gemeinschaftsraum?", "answer": "Ravenclaw" }
+      ]
+    },
+    {
+      "id": "cat2",
+      "title": "Zaubersprüche",
+      "questions": [
+        { "points": 100, "question": "Welcher Zauber lässt Dinge schweben?", "answer": "Wingardium Leviosa" },
+        { "points": 200, "question": "Welcher Zauber erzeugt Licht an der Zauberstabspitze?", "answer": "Lumos" },
+        { "points": 300, "question": "Welcher Zauber entwaffnet den Gegner?", "answer": "Expelliarmus" },
+        { "points": 400, "question": "Wie heißt der Gegenzauber zu Levicorpus?", "answer": "Liberacorpus" },
+        { "points": 500, "question": "Welcher Zauber erzeugt einen unzerstörbaren Schutzschild?", "answer": "Protego Maxima" }
+      ]
+    },
+    {
+      "id": "cat3",
+      "title": "Magische Tiere",
+      "questions": [
+        { "points": 100, "question": "Welche Art Tier ist Hedwig?", "answer": "Schnee-Eule" },
+        { "points": 200, "question": "Wie heißt Hagrids dreiköpfiger Hund?", "answer": "Fluffy" },
+        { "points": 300, "question": "Wie nennt man ein Wesen, das sich in die Gestalt anderer verwandeln kann?", "answer": "Metamorphmagus" },
+        { "points": 400, "question": "Welches Tier bewacht die Schatzkammern in Gringotts?", "answer": "Ukrainischer Eisenbauch (Drache)" },
+        { "points": 500, "question": "Wie heißt der Testral, der Luna Lovegood besonders nah steht?", "answer": "Sie nennt ihn einfach ihren Thestral, kein eigener Name bekannt" }
+      ]
+    },
+    {
+      "id": "cat4",
+      "title": "Lehrer & Fächer",
+      "questions": [
+        { "points": 100, "question": "Wer unterrichtet Zaubertränke im ersten Schuljahr von Harry?", "answer": "Professor Snape" },
+        { "points": 200, "question": "Wer ist der Hüter der Schlüssel in Hogwarts?", "answer": "Rubeus Hagrid" },
+        { "points": 300, "question": "Welches Fach lehrt Professor Trelawney?", "answer": "Wahrsagen" },
+        { "points": 400, "question": "Wer unterrichtet Verteidigung gegen die dunklen Künste im 3. Schuljahr?", "answer": "Remus Lupin" },
+        { "points": 500, "question": "Welcher Lehrer hat den Orden des Merlin, Erster Klasse?", "answer": "Albus Dumbledore" }
+      ]
+    },
+    {
+      "id": "cat5",
+      "title": "Magische Objekte",
+      "questions": [
+        { "points": 100, "question": "Was zeigt der Sprechende Hut?", "answer": "Zu welchem Haus man gehört" },
+        { "points": 200, "question": "Wie heißt Harrys Besen im dritten Schuljahr?", "answer": "Feuerblitz" },
+        { "points": 300, "question": "Welches Objekt zeigt die Wahrheit, auch wenn man sie nicht sehen möchte?", "answer": "Der Denkarium" },
+        { "points": 400, "question": "Womit kann man Erinnerungen aus dem Kopf ziehen?", "answer": "Mit einem Zauberstab und dem Denkarium" },
+        { "points": 500, "question": "Welches Objekt erschuf Dumbledore, um Hogwarts gegen Voldemort zu schützen?", "answer": "Die Armee der Verteidigungszauber (Protego Maxima / Fianto Duri / Repello Inimicum)" }
+      ]
+    },
+    {
+      "id": "cat6",
+      "title": "Geschichte der Zauberwelt",
+      "questions": [
+        { "points": 100, "question": "Wie heißt der dunkle Magier vor Voldemort?", "answer": "Gellert Grindelwald" },
+        { "points": 200, "question": "Wer war der Gründer von Hogsmeade?", "answer": "Hengist von Woodcroft" },
+        { "points": 300, "question": "Wie heißt die berühmte Zaubererschule in Frankreich?", "answer": "Beauxbatons" },
+        { "points": 400, "question": "Welcher Magier erfand den Vielsafttrank?", "answer": "Herpo der Üble" },
+        { "points": 500, "question": "Wie viele Horkruxe erstelle Voldemort absichtlich?", "answer": "Sechs (plus Harry unabsichtlich der siebte)" }
+      ]
+    }
+  ]
+}

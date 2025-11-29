@@ -1,0 +1,70 @@
+{
+  "categories": [
+    {
+      "id": "cat1",
+      "title": "Demacia",
+      "questions": [
+        { "points": 100, "question": "Wie lautet Demacias Nationalfarbe?", "answer": "Blau und Weiß" },
+        { "points": 200, "question": "Welcher Champion ist der rechtmäßige Thronfolger Demacias?", "answer": "Jarvan IV" },
+        { "points": 300, "question": "Welcher Champion trägt einen verfluchten Runenstein-Speer?", "answer": "Xin Zhao" },
+        { "points": 400, "question": "Welche Kreaturenart fürchtet Demacia am meisten?", "answer": "Magier / Menschen mit Magie" },
+        { "points": 500, "question": "Wie heißt Demacias legendärer 'Winged Protector'?", "answer": "Shyvana (später als Beschützerin)" }
+      ]
+    },
+    {
+      "id": "cat2",
+      "title": "Noxus",
+      "questions": [
+        { "points": 100, "question": "Wie lautet das Motto Noxus'?", "answer": "Stärke über alles" },
+        { "points": 200, "question": "Welches Trio führt Noxus?", "answer": "Das Trifarix" },
+        { "points": 300, "question": "Welcher Champion stammt ursprünglich aus Ionia, kämpft aber für Noxus?", "answer": "Riven" },
+        { "points": 400, "question": "Wer ist der (momentane) Anführer des militärischen Arms des Trifarix?", "answer": "Darius" },
+        { "points": 500, "question": "Welche Art von Magie benutzt Swain nach seiner 'Dämonenbindung'?", "answer": "Dämonische Seelenmagie (Besessene Essenzen)" }
+      ]
+    },
+    {
+      "id": "cat3",
+      "title": "Freljord",
+      "questions": [
+        { "points": 100, "question": "Nenne eine der drei Freljord-Fraktionen.", "answer": "Avarosan, Winter's Claw, Frostguard" },
+        { "points": 200, "question": "Wer ist die Anführerin der Avarosan?", "answer": "Ashe" },
+        { "points": 300, "question": "Welche uralte Entität kontrolliert Lissandra?", "answer": "Die Watchers" },
+        { "points": 400, "question": "Welcher Champion besitzt eine Verbindung zum Ursprungsgeist des Feuers?", "answer": "Braum" },
+        { "points": 500, "question": "Wie heißt die legendäre Waffe der Königin Avarosa?", "answer": "Der Kristallbogen" }
+      ]
+    },
+    {
+      "id": "cat4",
+      "title": "Ionia",
+      "questions": [
+        { "points": 100, "question": "Wie nennt man Ionias magische, naturverbundene Energie?", "answer": "Chi / Spirit Magic" },
+        { "points": 200, "question": "Welcher Champion wurde nach der Invasion Noxus' zu einem Kriegshelden?", "answer": "Irelia" },
+        { "points": 300, "question": "Welche zwei Champions sind Brüder und Widersacher?", "answer": "Yasuo & Yone" },
+        { "points": 400, "question": "Wie nennt man die Gruppe, die Zed gegründet hat?", "answer": "Orden der Schatten" },
+        { "points": 500, "question": "Wer war der ursprüngliche Meister von Yasuo und Yone?", "answer": "Meister Souma" }
+      ]
+    },
+    {
+      "id": "cat5",
+      "title": "Piltover & Zaun",
+      "questions": [
+        { "points": 100, "question": "Welches Element bildet die Grundlage der Hextech-Technologie?", "answer": "Hextech-Kristalle" },
+        { "points": 200, "question": "Welche zwei Champions gelten als Paradebeispiel für Piltover-Erfinder?", "answer": "Jayce und Heimerdinger" },
+        { "points": 300, "question": "Welcher Champion stammt aus Zauns untersten Ebenen und wurde durch Experimente verändert?", "answer": "Warwick" },
+        { "points": 400, "question": "Welche toxische Substanz ist in Zaun allgegenwärtig?", "answer": "Chemtech" },
+        { "points": 500, "question": "Welcher Champion besitzt einen Gemütszustand-Algorithmus namens 'Prime Directive'?", "answer": "Blitzcrank" }
+      ]
+    },
+    {
+      "id": "cat6",
+      "title": "Shurima",
+      "questions": [
+        { "points": 100, "question": "Wer ist der wiedergeborene Sonnengott von Shurima?", "answer": "Azir" },
+        { "points": 200, "question": "Wie nennt man die gottgleichen Shurima-Krieger?", "answer": "Ascended" },
+        { "points": 300, "question": "Welcher Champion war einst ein Ascended-Hund?", "answer": "Nasus" },
+        { "points": 400, "question": "Welcher Champion ist Azirs persönlicher Verräter?", "answer": "Xerath" },
+        { "points": 500, "question": "Was war der Ursprung der Zersplitterung Shurimas?", "answer": "Xeraths Aufstieg und Azirs Tod im Ritual" }
+      ]
+    }
+  ]
+}

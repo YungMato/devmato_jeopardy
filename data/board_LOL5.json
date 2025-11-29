@@ -1,0 +1,70 @@
+{
+  "categories": [
+    {
+      "id": "cat1",
+      "title": "Lore – Tiefes Wissen",
+      "questions": [
+        { "points": 100, "question": "Welcher Champion ist technisch gesehen 'der älteste lebende Mensch' Runeterras?", "answer": "Zilean (durch Zeitmanipulation)" },
+        { "points": 200, "question": "Welche Entität kontrolliert die 'Black Mist' vollständig?", "answer": "Viego (nach den Ruination-Events)" },
+        { "points": 300, "question": "Welche drei Helden waren beim Untergang der ursprünglichen Freljord-Allianz beteiligt?", "answer": "Avarosa, Serylda, Lissandra" },
+        { "points": 400, "question": "Wie heißt das Ritual, das Azir zu den Ascended erhob?", "answer": "Der Sonnenaufstieg (Sun Disc Ritual)" },
+        { "points": 500, "question": "Wie heißt der wahre Name von The Watchers' stärkstem Avatar?", "answer": "Vel’Koz (als Beobachter der Realität)" }
+      ]
+    },
+    {
+      "id": "cat2",
+      "title": "Champion-Frames & Hidden Mechanics",
+      "questions": [
+        { "points": 100, "question": "Welcher Champion hat als einziger 3 vollwertige Ultimates?", "answer": "Elise (technisch 2 Formen + transformierende Mechanik), aber korrekter: Jayce (2 Formen, keine echte Ultimate)" },
+        { "points": 200, "question": "Welcher Skillshot besitzt die längste effektive Reichweite im Spiel?", "answer": "Xerath R (mit Ascension-Erhöhung)" },
+        { "points": 300, "question": "Welcher Champion kann eine Fähigkeit abbrechen, indem er eine andere castet, was als Cancel-Tech gilt?", "answer": "Riven" },
+        { "points": 400, "question": "Welche Fähigkeit hat die längste grundsätzliche CC-Dauer?", "answer": "Morgana Q (3 Sekunden)" },
+        { "points": 500, "question": "Welcher Champion besitzt die Fähigkeit mit der höchsten AP-Skalierung im Spiel (nicht Ultimate)?", "answer": "Veigar Q/W abhängig, aber größte einzelne AP-Skalierung: Syndra W (0.7 + zusätzliche Effekte)" }
+      ]
+    },
+    {
+      "id": "cat3",
+      "title": "Historische Patches",
+      "questions": [
+        { "points": 100, "question": "Welcher Champion war im 'Black Cleaver Patch' völlig overpowered?", "answer": "Darius" },
+        { "points": 200, "question": "Welche Season wurde als 'Tank Meta Season' bekannt?", "answer": "Season 6" },
+        { "points": 300, "question": "Welches legendary Item wurde aus dem Spiel entfernt, obwohl es früher Core auf Supports war?", "answer": "Sightstone" },
+        { "points": 400, "question": "Welches Jungle-Item wurde mit den Smite-Evolutionen entfernt?", "answer": "Tracker’s Knife" },
+        { "points": 500, "question": "Welche Season hatte das berüchtigte 'Mage Update', das 6 Champions überarbeitete?", "answer": "Season 6 – Midseason Mage Update" }
+      ]
+    },
+    {
+      "id": "cat4",
+      "title": "Esports – Expert Level",
+      "questions": [
+        { "points": 100, "question": "Wer gewann Worlds 2016?", "answer": "SKT T1" },
+        { "points": 200, "question": "Welcher Spieler ist der einzige 4-fache Worlds-Champion?", "answer": "Faker" },
+        { "points": 300, "question": "Welches Team verlor das legendäre 'Silver Scrapes' Finale 2017 gegen SSG?", "answer": "SKT T1" },
+        { "points": 400, "question": "Welcher Spieler hat weltweit die meisten offiziellen Pentakills im Pro-Play?", "answer": "Rekkles" },
+        { "points": 500, "question": "Wer ist der einzige Spieler, der jemals auf drei verschiedenen Positionen an der Worlds teilnahm?", "answer": "Wolf (Support, ADC off-role, Jungle in Notfall)" }
+      ]
+    },
+    {
+      "id": "cat5",
+      "title": "Map Tech & Engine",
+      "questions": [
+        { "points": 100, "question": "Wie heißt die Engine, auf der LoL ursprünglich lief?", "answer": "Riot’s in-house engine basierend auf einer modifizierten Warcraft-3-Architektur" },
+        { "points": 200, "question": "Was passiert, wenn zwei Gegner ihre Blinks gleichzeitig in dieselbe Position ausführen?", "answer": "Server-Kollisionsauflösung – einer wird leicht verschoben" },
+        { "points": 300, "question": "Wie nennt man die Technik, mit der Fähigkeiten teilweise unabhängig vom Server berechnet werden?", "answer": "Client-side prediction" },
+        { "points": 400, "question": "Wie wird der Intervall genannt, in dem LoL Statuswerte neu berechnet?", "answer": "Tickrate (ca. 30 Hz)" },
+        { "points": 500, "question": "Welche interne Engine-Limitierung verhindert unbegrenzte Geschwindigkeitswerte?", "answer": "Movement Cap Hard Limit (ca. 900–1000 Units/sec)" }
+      ]
+    },
+    {
+      "id": "cat6",
+      "title": "Extrem schwere Fun-Facts",
+      "questions": [
+        { "points": 100, "question": "Welcher Champion hat mit 0.625 die höchste natürliche Angriffsgeschwindigkeit auf Level 1?", "answer": "Kog’Maw" },
+        { "points": 200, "question": "Welcher Champion besitzt die meisten verschiedenen Skins?", "answer": "Ezreal" },
+        { "points": 300, "question": "Welche Fähigkeit hat das längste Tooltip im Spiel?", "answer": "Camille Passive oder Aphelios Passives; je nach Patch Aphelios" },
+        { "points": 400, "question": "Welcher Champion besitzt als einziger eine Ultimate ohne Cooldown?", "answer": "Kindred (Lamb’s Respite hat CD, aber URF: Ryze hatte früher unbegrenztes Spell-Recycling)" },
+        { "points": 500, "question": "Welcher Champion wurde mit dem teuersten Design-Budget aller Zeiten entwickelt?", "answer": "Aphelios" }
+      ]
+    }
+  ]
+}

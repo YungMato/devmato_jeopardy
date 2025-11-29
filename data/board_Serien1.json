@@ -1,0 +1,70 @@
+{
+  "categories": [
+    {
+      "id": "cat1",
+      "title": "Kultserien",
+      "questions": [
+        { "points": 100, "question": "Wie heißt die gelbe Cartoon-Familie aus Springfield?", "answer": "Die Simpsons" },
+        { "points": 200, "question": "Wie heißt der Chemielehrer aus 'Breaking Bad'?", "answer": "Walter White" },
+        { "points": 300, "question": "In welcher Serie jagen FBI-Agenten gefährliche Verbrecher im BAU?", "answer": "Criminal Minds" },
+        { "points": 400, "question": "Wie lautet der Name des Mörders, den die Protagonisten in 'Stranger Things' jagen?", "answer": "Der Demogorgon" },
+        { "points": 500, "question": "Wie heißt die Königin, die in 'Game of Thrones' den Wildfire-Angriff plant?", "answer": "Cersei Lannister" }
+      ]
+    },
+    {
+      "id": "cat2",
+      "title": "Sitcoms",
+      "questions": [
+        { "points": 100, "question": "Wie heißt die Serie mit Ross, Rachel, Joey und Chandler?", "answer": "Friends" },
+        { "points": 200, "question": "In welcher Serie baut ein Wissenschaftler eine Zeitmaschine für eine Ente?", "answer": "The Big Bang Theory" },
+        { "points": 300, "question": "Wie heißt das Büro, in dem 'The Office' spielt?", "answer": "Dunder Mifflin" },
+        { "points": 400, "question": "Wie heißt das Apartmentgebäude aus 'How I Met Your Mother'?", "answer": "The Arcadian / MacLaren’s Nähe" },
+        { "points": 500, "question": "Welche Sitcom enthält den Charakter 'Ron Swanson'?", "answer": "Parks and Recreation" }
+      ]
+    },
+    {
+      "id": "cat3",
+      "title": "Animationsserien",
+      "questions": [
+        { "points": 100, "question": "Wie heißt der Junge mit der orangenen Jacke aus 'South Park'?", "answer": "Kenny" },
+        { "points": 200, "question": "Welche Serie folgt einer dysfunktionalen Weltraumfamilie?", "answer": "Futurama" },
+        { "points": 300, "question": "Wie heißt der Wissenschaftler in 'Rick and Morty'?", "answer": "Rick Sanchez" },
+        { "points": 400, "question": "Wie heißt die Serie, in der ein Pinguin, ein Bär und ein Panda zusammenleben?", "answer": "We Bare Bears" },
+        { "points": 500, "question": "Wie heißt der Antagonist, der Avatar Aang verfolgt?", "answer": "Prinz Zuko" }
+      ]
+    },
+    {
+      "id": "cat4",
+      "title": "Krimiserien",
+      "questions": [
+        { "points": 100, "question": "Wie heißt die Serie über Navy-Ermittler?", "answer": "NCIS" },
+        { "points": 200, "question": "Wer ist der berühmteste Detektiv in 'Sherlock'?", "answer": "Sherlock Holmes" },
+        { "points": 300, "question": "Wie heißt die Serie über die forensische Ermittlerin Temperance Brennan?", "answer": "Bones" },
+        { "points": 400, "question": "Welche Krimiserie spielt im fiktiven Miami-Dade Police Department?", "answer": "Dexter" },
+        { "points": 500, "question": "Wie heißt der Serienmörder, der in 'Mindhunter' als erster interviewt wird?", "answer": "Ed Kemper" }
+      ]
+    },
+    {
+      "id": "cat5",
+      "title": "Fantasy & Sci-Fi",
+      "questions": [
+        { "points": 100, "question": "Wie heißt die Serie mit dem Mandalorianer?", "answer": "The Mandalorian" },
+        { "points": 200, "question": "Welche Serie beginnt mit dem Verschwinden eines Jungen namens Will?", "answer": "Stranger Things" },
+        { "points": 300, "question": "Wie heißt das Raumschiff in 'Star Trek: Next Generation'?", "answer": "USS Enterprise (NCC-1701-D)" },
+        { "points": 400, "question": "Wie heißt die Organisation, der Geralt von Riva angehört?", "answer": "Die Hexer / Die Witcher-Schulen" },
+        { "points": 500, "question": "Wie heißt das Computerprogramm, das Menschen in 'Westworld' reproduziert?", "answer": "The Forge" }
+      ]
+    },
+    {
+      "id": "cat6",
+      "title": "Intro-Musik & Zitate",
+      "questions": [
+        { "points": 100, "question": "Welche Serie hat ein Intro mit einer Ukulele und einem Hawaii-Thema?", "answer": "Hawaii Five-0" },
+        { "points": 200, "question": "In welcher Serie fällt der Satz: 'Winter is coming'?", "answer": "Game of Thrones" },
+        { "points": 300, "question": "In welcher Serie findet man den Satz: 'Live long and prosper'?", "answer": "Star Trek" },
+        { "points": 400, "question": "Welche Serie ist berühmt für das Intro-Lied 'I'll Be There for You'?", "answer": "Friends" },
+        { "points": 500, "question": "Welche Serie enthält das ikonische Zitat 'We have to go back!'?", "answer": "Lost" }
+      ]
+    }
+  ]
+}
