@@ -4,8 +4,8 @@ import { io } from "socket.io-client";
 
 const SOCKET_URL =
   process.env.NODE_ENV === "production"
-    ? "*"  // <- deine Deployment-Domain
-    : "http://localhost:4000";   // <- dein lokaler Node-Server
+    ? "https://devmato.pro"     // ✅ deine echte Domain
+    : "http://localhost:4000";  // ✅ lokal direkt auf Node
 
 const socket = io(SOCKET_URL, {
   path: "/socket.io",
