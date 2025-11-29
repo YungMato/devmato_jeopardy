@@ -525,6 +525,15 @@ function App() {
                 (game.currentTeamId === teamId ? "team-card-game--active" : "")
               }
             >
+              {/* ★ Score Animation */}
+              {scoreChange[teamId] !== null &&
+                scoreChange[teamId] !== undefined && (
+                  <div className="score-change">
+                    {scoreChange[teamId] > 0
+                      ? "+" + scoreChange[teamId]
+                      : scoreChange[teamId]}
+                  </div>
+                )}
               <div className="team-info-row">
                 <span className="team-info-name">{team.name}</span>
               </div>
@@ -537,20 +546,24 @@ function App() {
                 ) : (
                   <div className="team-avatar-placeholder">{team.name[0]}</div>
                 )}
-
-                {/* ★ Score Animation */}
-                {scoreChange[teamId] !== null &&
-                  scoreChange[teamId] !== undefined && (
-                    <div className="score-change">
-                      {scoreChange[teamId] > 0
-                        ? "+" + scoreChange[teamId]
-                        : scoreChange[teamId]}
-                    </div>
-                  )}
               </div>
 
               <div className="team-info-row">
                 <span className="team-info-score">{score}</span>
+              </div>
+              <div className="team-info-players">
+                {Object.values(lobby.players)
+                  .filter((p) => p.teamId == teamId)
+                  .map((p) => (
+                    <span key={p.id} className="lobby-player-pill">
+                      {p.name}
+                      {p.isGamemaster && (
+                        <span className="tag tag--gm" style={{ marginLeft: 4 }}>
+                          GM
+                        </span>
+                      )}
+                    </span>
+                  ))}
               </div>
             </div>
           );
@@ -589,9 +602,11 @@ function App() {
 
         {error && <p className="error-text">Fehler: {error}</p>}
 
-        <p style={{ fontSize: 40, fontWeight: 700 }}>
-          Lobby-Code: {lobby.code}
-        </p>
+        {lobbyPhase === "lobby" && (
+          <p style={{ fontSize: 40, fontWeight: 700 }}>
+            Lobby-Code: {lobby.code}
+          </p>
+        )}
 
         {/* ============================ LOGIN ============================ */}
 
@@ -669,7 +684,7 @@ function App() {
               </div>
             </div>
 
-            {/* Teams - 4 Slots mit Karten / Plus-Feldern */}
+            {/* Teams - 3 Slots mit Karten / Plus-Feldern */}
             <div className="lobby-teams-section">
               <h3 className="lobby-teams-title">Teams</h3>
               <div className="teams-grid-lobby">

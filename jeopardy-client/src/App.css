@@ -34,14 +34,14 @@ body {
   min-height: 100vh;
   display: flex;
   justify-content: center;
-  padding: 18px;
+  padding: 5px;
 }
 
 .app-shell {
   width: 100%;
   max-width: 1400px;
   min-height: calc(100vh - 36px);
-  max-height: calc(100vh - 36px);
+  max-height: calc(100vh - 30px);
   background: linear-gradient(180deg, rgba(15, 23, 42, 0.25), rgba(15, 23, 42, 0.7));
   border-radius: 28px;
   box-shadow: var(--shadow-soft);
@@ -1020,6 +1020,7 @@ display: flex;
   flex: 1;
   min-width: 160px;
   max-width: 260px;
+  height: 250px;
   border-radius: 18px;
   border: 2px solid rgba(248, 250, 252, 0.6);
   background: linear-gradient(145deg, rgba(15, 23, 42, 0.9), rgba(15, 23, 42, 0.96));
@@ -1177,6 +1178,11 @@ display: flex;
 
 .btn-avatar--selected {
   outline: 3px solid #22c55e;
+}
+
+.team-info-players{
+  width: 100%;
+  text-align: center;
 }
 
 .team-avatar-img {
